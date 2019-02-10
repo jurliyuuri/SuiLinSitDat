@@ -1059,6 +1059,19 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 3513,
+      "form" : "boungau"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｏ}円筒;【数】円柱;【機】シリンダー,窓枠,【地名】ヌアクショット（モーリタニアの首都）" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 3563,
       "form" : "bowa"
     },

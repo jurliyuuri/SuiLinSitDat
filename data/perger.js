@@ -7557,22 +7557,10 @@ var perger=
       "forms" : [ "卵" ]
     }, {
       "title" : "概念",
-      "forms" : [ "" ]
+      "forms" : [ "動物が産む殻や膜に包まれた球状のもの。" ]
     }, {
       "title" : "名詞",
       "forms" : [ "卵" ]
-    }, {
-      "title" : "動詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "定詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "約詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "叫詞",
-      "forms" : [ "" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -7588,22 +7576,10 @@ var perger=
       "forms" : [ "球" ]
     }, {
       "title" : "概念",
-      "forms" : [ "" ]
+      "forms" : [ "まるい形の物。" ]
     }, {
       "title" : "名詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "動詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "定詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "約詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "叫詞",
-      "forms" : [ "" ]
+      "forms" : [ "球", "ボール", "玉", "弾" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -8311,6 +8287,28 @@ var perger=
     "contents" : [ {
       "title" : "文化",
       "text" : "ボードゲームである机戦を基盤として発展した、パイグ文化圈を中心として遊ばれるカードゲームである"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 413,
+      "form" : "bon2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "筒" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "筒" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "筒" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "boungau.ar"
     } ],
     "variations" : [ ],
     "relations" : [ ]
