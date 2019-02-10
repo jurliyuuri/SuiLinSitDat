@@ -17,3 +17,7 @@ all:
 	curl -L http://jurliyuuri.com/lin-marn/lin%20cuop2%20dat2.json -o curl/lin_cuop_dat.json
 	echo var lin= > data/lin.js
 	cat curl/lin_cuop_dat.json >> data/lin.js
+
+	curl -L http://jurliyuuri.com/takan_cen/%E7%9A%87%E8%A8%80%E9%9B%86%E6%9B%B8.json -o curl/皇言集書.json
+	echo var takan_cen= > data/takan_cen.js
+	cat curl/皇言集書.json >> data/takan_cen.js

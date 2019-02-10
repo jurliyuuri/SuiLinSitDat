@@ -793,6 +793,22 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 1292,
+      "form" : "bake"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "どこ" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "bake2"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 1338,
       "form" : "bangai"
     },
@@ -2034,6 +2050,19 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 10143,
+      "form" : "dipe"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "うたう (歌う) [2014:単語と同じ:ALCIS:::],自由思想の" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 10224,
       "form" : "ditoo"
     },
@@ -2511,6 +2540,19 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 13617,
+      "form" : "gaa"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］（語句を）強めて言う,強調する,力説する,>>akcenti,>>reliefigi,>>substreki,{Ｎ}【植】ナンテン（南天）（specio el berberisacoj, _Nandina domestica_, iamverda arbusto kun ruaj fruktetoj）" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 14036,
       "form" : "gamuu"
     },
@@ -2519,6 +2561,19 @@ var airen=
       "forms" : [ "{Ｂ}【政】共和国;共和制" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 14055,
+      "form" : "ganyo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［前］～から（始まって）,～以来" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -3451,6 +3506,19 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 19778,
+      "form" : "jaizi"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［前］～の中から,～から出た,～のうちの,～製の,（汚水を地中に吸収させる）汚水だめ" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 19842,
       "form" : "jani"
     },
@@ -3499,6 +3567,22 @@ var airen=
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 20930,
+      "form" : "jomo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "うたう (歌う)" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "jomo2"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -4731,6 +4815,22 @@ var airen=
     "contents" : [ {
       "title" : "旧辞書表記",
       "text" : "MASU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 28732,
+      "form" : "matutu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "そと,外,外側,外部,以外," ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "MATUTU"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -8341,6 +8441,19 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 63287,
+      "form" : "yeho"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "会を解散する" ]
+    } ],
+    "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 63681,
       "form" : "yikho"
     },
@@ -8639,6 +8752,22 @@ var airen=
     } ],
     "tags" : [ "真理設定", "リパライン語ソース", "新造" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66612,
+      "form" : "noyhep"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "学校" ]
+    } ],
+    "tags" : [ "真理設定", "新造" ],
+    "contents" : [ {
+      "title" : "語源",
+      "text" : "noyaii + hep'iai"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   } ],
