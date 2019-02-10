@@ -9448,7 +9448,7 @@ var lin=
       "forms" : [ "waxu" ]
     }, {
       "title" : "アイル語",
-      "forms" : [ "wuaxu(方言語)" ]
+      "forms" : [ "wuaxu" ]
     }, {
       "title" : "タカン語皇音",
       "forms" : [ "わ", "わ-す" ]
@@ -9473,9 +9473,15 @@ var lin=
     }, {
       "title" : "バート語",
       "forms" : [ "*" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "wuaxu" ]
     } ],
     "tags" : [ ],
-    "contents" : [ ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "wuaxuは方言"
+    } ],
     "variations" : [ ],
     "relations" : [ {
       "title" : "同字異語",
