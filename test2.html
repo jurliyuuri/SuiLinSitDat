@@ -2,11 +2,22 @@
 <script src="http://jurliyuuri.com/lin-marn/image_table/char_and_folder_info.js"></script>
 <script src="http://jurliyuuri.com/lin-marn/image_table/image_existence_table.js"></script>
 <script src="http://jurliyuuri.com/lin-marn/image_table/get_image.js"></script>
+<script src="data/perger.js"></script>
+<script src="data/phertars.js"></script>
+<script src="data/airen.js"></script>
+<script src="data/lin.js"></script>
 
 <script>
+	function foo(character){
+		return JSON.stringify(lin.words.filter(a => a.entry.form.includes(character)));
+	}
+
 	type_prec = ["j.v", "SY", "noborder", "border"];
 	var str = "王冠之光満全族受光而我等心行全物光闇而神在皇力此上下終無噫";
 	for (var i = 0; i < str.length; i++){
 		document.write(getImage(str[i], type_prec, 20, "http://jurliyuuri.com/lin-marn"))
+		document.write("<div style='border: 1px solid blue; padding: 5px; margin:5px'>"
+			+foo(str[i])+ "</div>");
 	}
 </script>
+
