@@ -8234,6 +8234,9 @@ var lin=
     }, {
       "title" : "バート語",
       "forms" : [ "*" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "NIKU" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -8353,6 +8356,9 @@ var lin=
     }, {
       "title" : "バート語",
       "forms" : [ "*" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "MISA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -8472,6 +8478,9 @@ var lin=
     }, {
       "title" : "バート語",
       "forms" : [ "*" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "IKI" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -8591,6 +8600,9 @@ var lin=
     }, {
       "title" : "バート語",
       "forms" : [ "*" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "NAKU" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9523,6 +9535,9 @@ var lin=
     }, {
       "title" : "バート語",
       "forms" : [ "manáman", "banáman" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "MANANA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -9884,6 +9899,9 @@ var lin=
     }, {
       "title" : "ラネーメ祖語",
       "forms" : [ "kyoo" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "quvoo", "gio" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10479,6 +10497,9 @@ var lin=
     }, {
       "title" : "アイル語",
       "forms" : [ "susi" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "SUSI" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10637,6 +10658,9 @@ var lin=
     }, {
       "title" : "アイル語",
       "forms" : [ "cee" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "cee" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10656,6 +10680,9 @@ var lin=
     }, {
       "title" : "バート語",
       "forms" : [ "kánaghúḷ" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KANAKA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10675,6 +10702,9 @@ var lin=
     }, {
       "title" : "バート語",
       "forms" : [ "kánatúḷ" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "KANATA" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -10753,6 +10783,9 @@ var lin=
       "forms" : [ "bháheúḷ" ]
     }, {
       "title" : "アイル語",
+      "forms" : [ "baihaiu" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
       "forms" : [ "baihaiu" ]
     } ],
     "tags" : [ ],
@@ -11030,7 +11063,7 @@ var lin=
       "title" : "アイル語",
       "forms" : [ "bot'oo" ]
     }, {
-      "title" : "アイル語",
+      "title" : "アイル語(辞書表記)",
       "forms" : [ "bot'oo" ]
     } ],
     "tags" : [ ],
