@@ -38,7 +38,9 @@
 			return alpha.map(function(e, i) {
 			  return {alpha:e, beta: beta[i]};
 			});
-		}).reduce(reducer)//.reduce(reducer);
+		}).reduce(reducer)
+		.filter(a => a.alpha !== "~" || a.beta !== "~")
+		.filter(a => a.alpha !== "*" || a.beta !== "*")//.reduce(reducer);
 
 		//var air_word_candidate = air_wordlist.map(w => airen.words.filter(a => a.entry.form == w));
 		return JSON.stringify({
