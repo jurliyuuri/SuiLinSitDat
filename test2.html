@@ -9,15 +9,53 @@
 
 <script>
 	function foo(character){
-		return JSON.stringify(lin.words.filter(a => a.entry.form.includes(character)));
+		var lin_cuop_dat = lin.words.filter(a => a.entry.form.includes(character));
+		if (lin_cuop_dat.length === 0) {
+			return "null";
+		}
+		/*var perger = lin_cuop_dat.map(function(a){
+			return a.translations.filter(b => b.title === "標準パイグ語").map(b => b.forms)
+		});*/
+		var pek = perger.words.filter(function(a){
+			var arr = a.translations.filter(b => b.title === "漢字転写");
+			/* [{ "title" : "漢字転写", "forms" : [ "噫" ] }] */
+			if (arr.length === 0) { return false; }
+			if (arr.length > 1) { alert(`「${character}」処理中にパイグ語辞書でエラー(2)`); }
+			return arr[0].forms.includes(character);
+		});
+
+		const reducer = (accumulator, currentValue) => accumulator.concat(currentValue);
+
+		var air_wordlist = lin_cuop_dat.map(function(a){
+			console.log(a);
+			var alpha = a.translations.filter(b => b.title === "アイル語");
+			if (alpha.length === 0) {alpha = [{ "title" : "アイル語", "forms" : [ "~" ]}]; }
+			alpha = alpha.map(b => b.forms)[0];
+
+			var beta = a.translations.filter(b => b.title === "アイル語(辞書表記)");
+			if (beta.length === 0) {beta = [{ "title" : "アイル語(辞書表記)", "forms" : [ "~" ]}]; }
+			beta = beta.map(b => b.forms)[0];
+
+			console.log(alpha, beta);
+			return alpha.map(function(e, i) {
+			  return {alpha:e, beta: beta[i]};
+			});
+		}).reduce(reducer)//.reduce(reducer);
+
+		//var air_word_candidate = air_wordlist.map(w => airen.words.filter(a => a.entry.form == w));
+		return JSON.stringify({
+			air: air_wordlist,//air_word_candidate, 
+			lin: lin_cuop_dat, 
+			pek: pek});
 	}
 
-	type_prec = ["j.v", "SY", "noborder", "border"];
-	var str = "王冠之光満全族受光而我等心行全物光闇而神在皇力此上下終無噫";
+	type_prec = ["jv", "SY", "noborder", "border"];
+	var str = "王冠之光満全族受光而我等心行全物光闇而神在皇力此上下終無噫我汝此其彼何或全無在互己物人如之処時故位術言字筆書墨文論紙絵手足心目口骨頭腹背肉光闇木草火水風石金膠花種果油脂大中小周内外軸衣糸日月星天地山谷川海陸島上下左右東西南北縦横高低始終出入一二三四五六七八九撃行来識獣鳥魚虫龍機箱男女皇神船兵弓車虎馬巫将王類為貝刀声家善友美受与力須而即御再乎於遠悪真噫雪夏冬止激付端律集亦値積国同閉開春秋子混倉官民迷意連常祭笑戦壊等形毎静層極色季銭名労助冠満族清定錘赤菓硬牌軟豊貧倒長傾圧鼓包机散席深門認傷棚寝綿普少輩黒反磨輪血帯覆謝豆父琴白煙寒古耳抗母軽米勿猫酒学守十囲道奮急素新蜜祖前使体唯従茶正樽遊味甘型歌謎裁怖質党片件震加別青嗅後歪近広万挽平百欽夘布械函輝累岩禦立疲辿千座旦通強哩麗塩耒貓能咍柔恒犬胸聯頬穏短直棉箏孰毛那茲詞店巻躍壁㕮吁遅牛鎖多卵球網羊救皷从后穴凹笛";
 	for (var i = 0; i < str.length; i++){
+		console.log(str[i]);
 		document.write(getImage(str[i], type_prec, 20, "http://jurliyuuri.com/lin-marn"))
 		document.write("<div style='border: 1px solid blue; padding: 5px; margin:5px'>"
-			+foo(str[i])+ "</div>");
+			+foo(str[i]).replace(/</g,'&lt;').replace(/>/g,'&gt;')+ "</div>");
 	}
 </script>
 
