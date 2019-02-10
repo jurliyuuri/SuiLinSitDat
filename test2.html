@@ -40,11 +40,31 @@
 			});
 		}).reduce(reducer)
 		.filter(a => a.alpha !== "~" || a.beta !== "~")
-		.filter(a => a.alpha !== "*" || a.beta !== "*")//.reduce(reducer);
+		.filter(a => a.alpha !== "*" || a.beta !== "*");
 
-		//var air_word_candidate = air_wordlist.map(w => airen.words.filter(a => a.entry.form == w));
+		var air_word_candidate = air_wordlist.map(w => 
+			airen.words.filter(function(a){
+
+				/* does not match */ 
+				if (a.entry.form !== w.alpha) {
+					return false;
+				} else {
+					/* matches, but the old form may not match*/
+
+					var old_form = a.contents.filter(q => q.title === "旧辞書表記").map(q => q.text);
+
+					/* old equals the new */
+					if (w.alpha === w.beta) {
+						/* "旧辞書表記" should not exist in this case */ 
+						return old_form.length === 0;
+					} else {
+						return w.beta === old_form[0];
+					}
+				}
+			})
+		);
 		return JSON.stringify({
-			air: air_wordlist,//air_word_candidate, 
+			air: air_word_candidate, 
 			lin: lin_cuop_dat, 
 			pek: pek});
 	}
