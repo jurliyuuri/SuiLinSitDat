@@ -6,6 +6,7 @@
 <script src="data/phertars.js"></script>
 <script src="data/airen.js"></script>
 <script src="data/lin.js"></script>
+<script src="data/takan_cen.js"></script>
 
 <script>
 	function foo(character){
@@ -63,10 +64,17 @@
 				}
 			})
 		);
+
+		var takan = takan_cen.words.filter(function(a){
+			var forms = a.translations.filter(b => b.title === "漢字仮名混じり転写").map(c => c.forms);
+			return forms.filter(str => str.includes(character)).length > 0;
+		});
+
 		return JSON.stringify({
 			air: air_word_candidate, 
 			lin: lin_cuop_dat, 
-			pek: pek});
+			pek: pek,
+			tkn: takan});
 	}
 
 	type_prec = ["jv", "SY", "noborder", "border"];
