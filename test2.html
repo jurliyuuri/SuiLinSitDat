@@ -2,6 +2,7 @@
 <script src="http://jurliyuuri.com/lin-marn/image_table/char_and_folder_info.js"></script>
 <script src="http://jurliyuuri.com/lin-marn/image_table/image_existence_table.js"></script>
 <script src="http://jurliyuuri.com/lin-marn/image_table/get_image.js"></script>
+<script src="http://jurliyuuri.com/lin-marn/mysterious_encoding.js"></script>
 <script src="data/perger.js"></script>
 <script src="data/phertars.js"></script>
 <script src="data/airen.js"></script>
@@ -78,11 +79,14 @@
 	}
 
 	type_prec = ["jv", "SY", "noborder", "border"];
-	var str = "天人或口裁馬論耒北散労船十高故何家琴箱族型止助汝八月羊赤定目石机寝筆心座彼祭千真通再南父処縦冠遅怖層手棉男味術硬山牌激鎖夘軸草辿耳戦遠棚絵傾果片網骨甘星強青付王開雪位四小覆奮貝六紙陸広震神酒輝闇能行大互虎白九極別油毛始兵金而嗅五横卵深歪茲御米席島柔閉㕮於累錘如腹衣種海終膠来黒左道書新恒帯己形右孰加悪学識磨穴七集虫色頭友外聯疲西連歌値傷国善那冬吁使欽禦言類周文械囲布前官為笑反在東無出胸近壁謝店春从常全菓急女包圧花亦迷獣字即箏従一車毎樽下巫豊之立軟古夏鼓季積内肉穏民背火二長普猫混噫須撃質多水低秋麗律貧川巻墨直件風煙母日茶皇百挽機球守認函銭与輩木寒頬糸美鳥遊壊犬体倉時刀将静祖入上門党唯清後端脂意万少受哩旦躍魚皷謎地満谷素子綿足笛蜜声力弓短豆勿此正平輪后同龍凹光中我岩倒牛三乎名軽詞抗咍其物貓塩等血救";
-	for (var i = 0; i < str.length; i++){
-		document.write("<br>"+getImage(str[i], type_prec, 40, "http://jurliyuuri.com/lin-marn"))
+	for (var i = 0; i < mysterious_encoding.length; i++){
+		if (mysterious_encoding[i] === "??") {
+			continue;
+		}
+
+		document.write("<br>"+getImage(mysterious_encoding[i], type_prec, 40, "http://jurliyuuri.com/lin-marn"))
 		document.write("<div style='border: 1px solid blue; padding: 5px; margin:5px'>"
-			+foo(str[i]).replace(/</g,'&lt;').replace(/>/g,'&gt;')+ "</div>");
+			+foo(mysterious_encoding[i]).replace(/</g,'&lt;').replace(/>/g,'&gt;')+ "</div>");
 	}
 </script>
 
