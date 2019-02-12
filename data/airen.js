@@ -8783,6 +8783,22 @@ var airen=
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 66613,
+      "form" : "zuhiasuka"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "教師、教授" ]
+    } ],
+    "tags" : [ "真理設定", "新造" ],
+    "contents" : [ {
+      "title" : "語源",
+      "text" : "<zuhio asuka"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
