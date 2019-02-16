@@ -5,7 +5,7 @@
 <script src="data/composition.js"></script>
 
 <script type="text/javascript">
-function foo(comp) {
+function print_single_composition(comp) {
 	if (comp === "") return "";
 	if (comp === "（＊辰＝⿸＊厂⿱処魚）") return "";
 
@@ -27,15 +27,13 @@ function foo(comp) {
 	return ans + "<br>";
 }
 
-for (var i = 0; i < composition.length; i++) {
-	if (composition[i] === null) { // end of array
-			break;
-		}
-	document.write("<br>"+getImage(composition[i].char, ["SY", "jv", "noborder", "border"], 40, "http://jurliyuuri.com/lin-marn"));
-	document.write(bar(composition[i].char));
+for (var i = 0; i < linzi_list.length; i++) {
+	
+	document.write("<br>"+getImage(linzi_list[i], ["SY", "jv", "noborder", "border"], 40, "http://jurliyuuri.com/lin-marn"));
+	document.write(print_compositions(linzi_list[i]));
 }
 
-function bar(char){
+function print_compositions(char){
 	for (var i = 0; i < composition.length; i++) {
 		var obj = composition[i];
 		if (obj === null) { // end of array
@@ -45,14 +43,14 @@ function bar(char){
 		if (obj.char === char) {
 			var ans = 
 			"<div style='border: 1px solid blue; padding: 5px; margin:5px'>"
-				+foo(obj.decomp1)
-				+foo(obj.decomp2)
-				+foo(obj.decomp3)
-				+foo(obj.decomp4)
+				+print_single_composition(obj.decomp1)
+				+print_single_composition(obj.decomp2)
+				+print_single_composition(obj.decomp3)
+				+print_single_composition(obj.decomp4)
 				+ "</div>";
 			return ans;
 		}
 	}
-	return "composition not found"
+	return "<div style='border: 1px solid red; padding: 5px; margin:5px'>構成情報なし</div>"
 }
 </script>
