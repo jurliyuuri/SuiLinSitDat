@@ -21,3 +21,9 @@ all:
 	curl -L http://jurliyuuri.com/takan_cen/%E7%9A%87%E8%A8%80%E9%9B%86%E6%9B%B8.json -o curl/皇言集書.json
 	echo var takan_cen= > data/takan_cen.js
 	cat curl/皇言集書.json >> data/takan_cen.js
+
+	curl -L http://jurliyuuri.com/lin-marn/composition.txt -o curl/composition.txt
+	echo var composition= > data/composition.js
+	echo char\\tdecomp1\\tdecomp2\\tdecomp3\\tdecomp4 > data/tmp.txt
+	tail -n +4 curl/composition.txt >> data/tmp.txt
+	cat data/tmp.txt | ./tsv2json.sh >> data/composition.js # removes the explanations of ＊ and ％
