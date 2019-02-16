@@ -3046,12 +3046,15 @@ var perger=
       "forms" : [ "意見", "論" ]
     }, {
       "title" : "動詞",
-      "forms" : [ "論ずる", "述べる" ]
+      "forms" : [ "論ずる", "論じる", "述べる" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
       "title" : "同根語",
       "text" : "zunaii.ar"
+    }, {
+      "title" : "用法",
+      "text" : "動詞ではあまり用いられない。"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -5489,6 +5492,9 @@ var perger=
     }, {
       "title" : "名詞",
       "forms" : [ "かけら", "札", "駒", "牌" ]
+    }, {
+      "title" : "動詞",
+      "forms" : [ "分ける" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -8310,6 +8316,63 @@ var perger=
       "title" : "同根語",
       "text" : "boungau.ar"
     } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 414,
+      "form" : "auk2 lot2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "長短" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "長いものと短いもの" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "長いものと短いもの" ]
+    }, {
+      "title" : "定詞",
+      "forms" : [ "長いAと短いA" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 415,
+      "form" : "pau1 cuau2 man1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "別形字" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "異体字" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 416,
+      "form" : "pau1 ua"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "別而" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "逆接の明示" ]
+    }, {
+      "title" : "約詞",
+      "forms" : [ "しかし", "しかしながら", "でも", "しかるに" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   } ],
