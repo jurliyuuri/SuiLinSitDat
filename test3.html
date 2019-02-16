@@ -2,55 +2,16 @@
 <script src="http://jurliyuuri.com/lin-marn/image_table/char_and_folder_info.js"></script>
 <script src="http://jurliyuuri.com/lin-marn/image_table/image_existence_table.js"></script>
 <script src="http://jurliyuuri.com/lin-marn/image_table/get_image.js"></script>
+<script src="http://jurliyuuri.com/lin-marn/mysterious_encoding.js"></script>
 <script src="data/composition.js"></script>
+<script src="print_composition.js"></script>
 
 <script type="text/javascript">
-function print_single_composition(comp) {
-	if (comp === "") return "";
-	if (comp === "（＊辰＝⿸＊厂⿱処魚）") return "";
-
-	var idc = "⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻";
-	var ans = "";
-	var comp_ = Array.from(comp);
-	for (var i = 0; i < comp_.length; i++) {
-		if (idc.includes(comp_[i]) || comp_[i] === "％") {
-			ans += comp_[i];
+for (var i = 0; i < mysterious_encoding.length; i++) {
+	if (mysterious_encoding[i] === "??") {
 			continue;
-		} else if (comp_[i] === "＊") {
-			ans += comp_[i+1];
-			i++; // extra increment
-			continue;
-		} else {
-			ans += getImage(comp_[i], ["SY", "jv", "noborder", "border"], 20, "http://jurliyuuri.com/lin-marn");
-		}
 	}
-	return ans + "<br>";
-}
-
-for (var i = 0; i < linzi_list.length; i++) {
-	
-	document.write("<br>"+getImage(linzi_list[i], ["SY", "jv", "noborder", "border"], 40, "http://jurliyuuri.com/lin-marn"));
-	document.write(print_compositions(linzi_list[i]));
-}
-
-function print_compositions(char){
-	for (var i = 0; i < composition.length; i++) {
-		var obj = composition[i];
-		if (obj === null) { // end of array
-			break;
-		}
-
-		if (obj.char === char) {
-			var ans = 
-			"<div style='border: 1px solid blue; padding: 5px; margin:5px'>"
-				+print_single_composition(obj.decomp1)
-				+print_single_composition(obj.decomp2)
-				+print_single_composition(obj.decomp3)
-				+print_single_composition(obj.decomp4)
-				+ "</div>";
-			return ans;
-		}
-	}
-	return "<div style='border: 1px solid red; padding: 5px; margin:5px'>構成情報なし</div>"
+	document.write("<br>"+getImage(mysterious_encoding[i], ["SY", "jv", "noborder", "border"], 40, "http://jurliyuuri.com/lin-marn"));
+	document.write(print_compositions(mysterious_encoding[i]));
 }
 </script>
