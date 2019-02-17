@@ -48,7 +48,16 @@ declare var perger: OTM_JSON;
 declare var airen: OTM_JSON;
 declare var takan_cen: OTM_JSON;
 
-function json_from_dictionaries(character: string) {
+function lookupByTitle(trs: Word, title: string): Translation[] {
+  return trs.translations.filter(b => b.title === title);
+}
+
+function json_from_dictionaries(character: string): ({
+  air: Word[][],
+  lin: Word[],
+  pek: Word[],
+  tkn: Word[]
+} | null) {
   var lin_cuop_dat: Word[] = lin.words.filter(a => a.entry.form.includes(character));
   if (lin_cuop_dat.length === 0) {
     return null;
@@ -57,8 +66,7 @@ function json_from_dictionaries(character: string) {
 			return a.translations.filter(b => b.title === "標準パイグ語").map(b => b.forms)
 		});*/
   var pek: Word[] = perger.words.filter(function (a: Word): boolean {
-    var arr: Translation[] = a.translations.filter((b: Translation) => b.title === "漢字転写");
-    /* [{ "title" : "漢字転写", "forms" : [ "噫" ] }] */
+    var arr: Translation[] = lookupByTitle(a, "漢字転写");
     if (arr.length === 0) {
       return false;
     }
@@ -79,13 +87,13 @@ function json_from_dictionaries(character: string) {
 
   var air_wordlist: StringPair[] = lin_cuop_dat
     .map(function (a: Word) {
-      var alpha: Translation[] = a.translations.filter(b => b.title === "アイル語");
+      var alpha: Translation[] = lookupByTitle(a, "アイル語");
       if (alpha.length === 0) {
         alpha = [{ title: "アイル語", forms: ["~"] }];
       }
       var alpha2: string[] = alpha.map(b => b.forms)[0];
 
-      var beta: Translation[] = a.translations.filter(b => b.title === "アイル語(辞書表記)");
+      var beta: Translation[] = lookupByTitle(a, "アイル語(辞書表記)");
       if (beta.length === 0) {
         beta = [{ title: "アイル語(辞書表記)", forms: ["~"] }];
       }

@@ -1,3 +1,8 @@
+function lookupByTitle(trs, title) {
+  return trs.translations.filter(function(b) {
+    return b.title === title;
+  });
+}
 function json_from_dictionaries(character) {
   var lin_cuop_dat = lin.words.filter(function(a) {
     return a.entry.form.includes(character);
@@ -9,10 +14,7 @@ function json_from_dictionaries(character) {
               return a.translations.filter(b => b.title === "標準パイグ語").map(b => b.forms)
           });*/
   var pek = perger.words.filter(function(a) {
-    var arr = a.translations.filter(function(b) {
-      return b.title === "漢字転写";
-    });
-    /* [{ "title" : "漢字転写", "forms" : [ "噫" ] }] */
+    var arr = lookupByTitle(a, "漢字転写");
     if (arr.length === 0) {
       return false;
     }
@@ -30,18 +32,14 @@ function json_from_dictionaries(character) {
   }
   var air_wordlist = lin_cuop_dat
     .map(function(a) {
-      var alpha = a.translations.filter(function(b) {
-        return b.title === "アイル語";
-      });
+      var alpha = lookupByTitle(a, "アイル語");
       if (alpha.length === 0) {
         alpha = [{ title: "アイル語", forms: ["~"] }];
       }
       var alpha2 = alpha.map(function(b) {
         return b.forms;
       })[0];
-      var beta = a.translations.filter(function(b) {
-        return b.title === "アイル語(辞書表記)";
-      });
+      var beta = lookupByTitle(a, "アイル語(辞書表記)");
       if (beta.length === 0) {
         beta = [{ title: "アイル語(辞書表記)", forms: ["~"] }];
       }
