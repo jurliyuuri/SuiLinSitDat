@@ -36,7 +36,7 @@ function json_from_dictionaries(character) {
       if (alpha.length === 0) {
         alpha = [{ title: "アイル語", forms: ["~"] }];
       }
-      alpha = alpha.map(function(b) {
+      var alpha2 = alpha.map(function(b) {
         return b.forms;
       })[0];
       var beta = a.translations.filter(function(b) {
@@ -45,11 +45,11 @@ function json_from_dictionaries(character) {
       if (beta.length === 0) {
         beta = [{ title: "アイル語(辞書表記)", forms: ["~"] }];
       }
-      beta = beta.map(function(b) {
+      var beta2 = beta.map(function(b) {
         return b.forms;
       })[0];
-      return alpha.map(function(e, i) {
-        return { alpha: e, beta: beta[i] };
+      return alpha2.map(function(e, i) {
+        return { alpha: e, beta: beta2[i] };
       });
     })
     .reduce(reducer)

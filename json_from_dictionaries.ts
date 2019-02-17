@@ -1,7 +1,52 @@
-declare var lin: any;
-declare var perger: any;
-declare var airen: any;
-declare var takan_cen: any;
+interface OTM_JSON {
+  words: Array<Word>;
+}
+
+interface Word {
+  entry: Entry;
+  translations: Array<Translation>;
+  "tags": Array<string>;
+  "contents": Array<Content>;
+  "variations": Array<Variation>;
+  "relations": Array<Relation>;
+}
+
+interface Entry {
+  id: number;
+  form: string;
+}
+
+interface Translation {
+  title: string;
+  forms: Array<string>;
+}
+
+interface Content {
+  title: string;
+  text: string;
+}
+
+interface Variation {
+  title: string;
+  form: string;
+}
+
+interface Relation {
+  title: string,
+  entry: {
+    id: number;
+    form: string;
+  }
+}
+
+interface Array<T> {
+  includes(searchElement: T, fromIndex?: number): boolean
+}
+
+declare var lin: OTM_JSON;
+declare var perger: OTM_JSON;
+declare var airen: OTM_JSON;
+declare var takan_cen: OTM_JSON;
 
 function json_from_dictionaries(character) {
   var lin_cuop_dat = lin.words.filter(a => a.entry.form.includes(character));
@@ -32,16 +77,16 @@ function json_from_dictionaries(character) {
       if (alpha.length === 0) {
         alpha = [{ title: "アイル語", forms: ["~"] }];
       }
-      alpha = alpha.map(b => b.forms)[0];
+      var alpha2 = alpha.map(b => b.forms)[0];
 
       var beta = a.translations.filter(b => b.title === "アイル語(辞書表記)");
       if (beta.length === 0) {
         beta = [{ title: "アイル語(辞書表記)", forms: ["~"] }];
       }
-      beta = beta.map(b => b.forms)[0];
+      var beta2 = beta.map(b => b.forms)[0];
 
-      return alpha.map(function(e, i) {
-        return { alpha: e, beta: beta[i] };
+      return alpha2.map(function(e, i) {
+        return { alpha: e, beta: beta2[i] };
       });
     })
     .reduce(reducer)
