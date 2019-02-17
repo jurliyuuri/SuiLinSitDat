@@ -1,3 +1,15 @@
+declare var composition: any;
+declare function getImage(character: string, type_prec: Array<string>, size: number, path: string): string;
+
+
+interface ArrayConstructor {
+  from(arrayLike: any, mapFn?, thisArg?): Array<any>;
+}
+
+interface String {
+  includes(searchString: string, position?: number): boolean;
+}
+
 function print_single_composition(comp) {
   if (comp === "") return "";
   if (comp === "（＊辰＝⿸＊厂⿱処魚）") return "";

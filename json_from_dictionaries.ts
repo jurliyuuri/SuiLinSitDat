@@ -1,3 +1,8 @@
+declare var lin: any;
+declare var perger: any;
+declare var airen: any;
+declare var takan_cen: any;
+
 function json_from_dictionaries(character) {
   var lin_cuop_dat = lin.words.filter(a => a.entry.form.includes(character));
   if (lin_cuop_dat.length === 0) {
