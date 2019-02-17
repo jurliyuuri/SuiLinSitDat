@@ -1,3 +1,7 @@
+.PHONY: all
+.PHONY: curl
+.PHONY: ts
+
 all:
 	make curl
 	make ts

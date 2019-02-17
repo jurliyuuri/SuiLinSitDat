@@ -323,4 +323,8 @@ var composition=
 {"char":"多","decomp1":"⿱人人","decomp2":"","decomp3":"","decomp4":""},
 {"char":"筒","decomp1":"＊ㅒ","decomp2":"","decomp3":"","decomp4":""},
 {"char":"増","decomp1":"⿰足多","decomp2":"","decomp3":"","decomp4":""},
+{"char":"笛","decomp1":"⿰声筒","decomp2":"","decomp3":"","decomp4":""},
+{"char":"笙","decomp1":"⿰筒声","decomp2":"","decomp3":"","decomp4":""},
+{"char":"竹","decomp1":"⿰木筒","decomp2":"","decomp3":"","decomp4":""},
+{"char":"竺","decomp1":"⿰筒木","decomp2":"","decomp3":"","decomp4":""},
 null]

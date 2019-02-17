@@ -11009,7 +11009,7 @@ var lin=
     "tags" : [ "異体字" ],
     "contents" : [ {
       "title" : "備考",
-      "text" : "「従」の異体字。"
+      "text" : "「従」の異体字"
     } ],
     "variations" : [ ],
     "relations" : [ {
@@ -11094,7 +11094,13 @@ var lin=
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 402,
+        "form" : "笙"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 399,
@@ -11139,6 +11145,86 @@ var lin=
       "form" : "増"
     },
     "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 402,
+      "form" : "笙"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「笛」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 398,
+        "form" : "笛"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 403,
+      "form" : "淮"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "uep1" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 404,
+      "form" : "竹"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 405,
+        "form" : "竺"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 405,
+      "form" : "竺"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「竹」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 404,
+        "form" : "竹"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 406,
+      "form" : "哩"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "lip" ]
+    } ],
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
