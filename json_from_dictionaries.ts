@@ -48,16 +48,16 @@ declare var perger: OTM_JSON;
 declare var airen: OTM_JSON;
 declare var takan_cen: OTM_JSON;
 
-function json_from_dictionaries(character) {
-  var lin_cuop_dat = lin.words.filter(a => a.entry.form.includes(character));
+function json_from_dictionaries(character: string) {
+  var lin_cuop_dat : Word[] = lin.words.filter(a => a.entry.form.includes(character));
   if (lin_cuop_dat.length === 0) {
     return null;
   }
   /*var perger = lin_cuop_dat.map(function(a){
 			return a.translations.filter(b => b.title === "標準パイグ語").map(b => b.forms)
 		});*/
-  var pek = perger.words.filter(function(a) {
-    var arr = a.translations.filter(b => b.title === "漢字転写");
+  var pek : Word[] = perger.words.filter(function(a: Word): boolean {
+    var arr : Translation[] = a.translations.filter((b: Translation) => b.title === "漢字転写");
     /* [{ "title" : "漢字転写", "forms" : [ "噫" ] }] */
     if (arr.length === 0) {
       return false;
@@ -68,33 +68,39 @@ function json_from_dictionaries(character) {
     return arr[0].forms.includes(character);
   });
 
-  const reducer = (accumulator, currentValue) =>
-    accumulator.concat(currentValue);
+  function reducer<T>(accumulator: Array<T>, currentValue: Array<T>): Array<T> {
+    return accumulator.concat(currentValue);
+  }
 
-  var air_wordlist = lin_cuop_dat
-    .map(function(a) {
-      var alpha = a.translations.filter(b => b.title === "アイル語");
+  interface StringPair{
+      alpha: string;
+      beta: string;
+  }
+  
+  var air_wordlist: StringPair[] = lin_cuop_dat
+    .map(function(a: Word) {
+      var alpha: Translation[] = a.translations.filter(b => b.title === "アイル語");
       if (alpha.length === 0) {
         alpha = [{ title: "アイル語", forms: ["~"] }];
       }
-      var alpha2 = alpha.map(b => b.forms)[0];
+      var alpha2: string[] = alpha.map(b => b.forms)[0];
 
-      var beta = a.translations.filter(b => b.title === "アイル語(辞書表記)");
+      var beta: Translation[] = a.translations.filter(b => b.title === "アイル語(辞書表記)");
       if (beta.length === 0) {
         beta = [{ title: "アイル語(辞書表記)", forms: ["~"] }];
       }
-      var beta2 = beta.map(b => b.forms)[0];
+      var beta2: string[] = beta.map(b => b.forms)[0];
 
-      return alpha2.map(function(e, i) {
+      return alpha2.map(function(e: string, i: number) {
         return { alpha: e, beta: beta2[i] };
       });
     })
     .reduce(reducer)
-    .filter(a => a.alpha !== "~" || a.beta !== "~")
-    .filter(a => a.alpha !== "*" || a.beta !== "*");
+    .filter((a: StringPair) => a.alpha !== "~" || a.beta !== "~")
+    .filter((a: StringPair) => a.alpha !== "*" || a.beta !== "*");
 
-  var air_word_candidate = air_wordlist.map(w =>
-    airen.words.filter(function(a) {
+  var air_word_candidate: Word[][] = air_wordlist.map((w: StringPair) =>
+    airen.words.filter(function(a: Word): boolean {
       /* does not match */
 
       if (a.entry.form !== w.alpha) {
@@ -102,9 +108,9 @@ function json_from_dictionaries(character) {
       } else {
         /* matches, but the old form may not match*/
 
-        var old_form = a.contents
-          .filter(q => q.title === "旧辞書表記")
-          .map(q => q.text);
+        var old_form: string[] = a.contents
+          .filter((q: Content) => q.title === "旧辞書表記")
+          .map((q: Content) => q.text);
 
         /* old equals the new */
         if (w.alpha === w.beta) {
@@ -118,10 +124,10 @@ function json_from_dictionaries(character) {
     })
   );
 
-  var takan = takan_cen.words.filter(function(a) {
-    var forms = a.translations
-      .filter(b => b.title === "漢字仮名混じり転写")
-      .map(c => c.forms);
+  var takan: Word[] = takan_cen.words.filter(function(a: Word): boolean {
+    var forms: string[][] = a.translations
+      .filter((b: Translation) => b.title === "漢字仮名混じり転写")
+      .map((c:Translation) => c.forms);
     return forms.filter(str => str.includes(character)).length > 0;
   });
 

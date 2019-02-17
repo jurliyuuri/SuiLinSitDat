@@ -25,9 +25,9 @@ function json_from_dictionaries(character) {
     }
     return arr[0].forms.includes(character);
   });
-  var reducer = function(accumulator, currentValue) {
+  function reducer(accumulator, currentValue) {
     return accumulator.concat(currentValue);
-  };
+  }
   var air_wordlist = lin_cuop_dat
     .map(function(a) {
       var alpha = a.translations.filter(function(b) {
