@@ -3,7 +3,7 @@ all:
 	make ts
 
 ts:
-	tsc *.ts || true
+	tsc *.ts --strictNullChecks || true
 	prettier --write *.js
 
 curl:
