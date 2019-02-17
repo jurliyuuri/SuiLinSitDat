@@ -1,4 +1,4 @@
-declare var composition: any;
+declare var composition: Array<any>;
 declare function getImage(character: string, type_prec: Array<string>, size: number, path: string): string;
 
 
@@ -10,13 +10,13 @@ interface String {
   includes(searchString: string, position?: number): boolean;
 }
 
-function print_single_composition(comp) {
+function print_single_composition(comp: string): string {
   if (comp === "") return "";
   if (comp === "（＊辰＝⿸＊厂⿱処魚）") return "";
 
-  var idc = "⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻";
-  var ans = "";
-  var comp_ = Array.from(comp);
+  var idc: string = "⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻";
+  var ans: string = "";
+  var comp_: string[] = Array.from(comp);
   for (var i = 0; i < comp_.length; i++) {
     if (idc.includes(comp_[i]) || comp_[i] === "％") {
       ans += comp_[i];
