@@ -1,6 +1,7 @@
 function print_single_composition(comp) {
   if (comp === "") return "";
   if (comp === "（＊辰＝⿸＊厂⿱処魚）") return "";
+
   var idc = "⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻";
   var ans = "";
   var comp_ = Array.from(comp);
@@ -23,6 +24,7 @@ function print_single_composition(comp) {
   }
   return ans + "<br>";
 }
+
 function print_compositions(char) {
   for (var i = 0; i < composition.length; i++) {
     var obj = composition[i];
@@ -30,6 +32,7 @@ function print_compositions(char) {
       // end of array
       break;
     }
+
     if (obj.char === char) {
       var ans =
         "<div style='border: 1px solid blue; padding: 5px; margin:5px'>" +
