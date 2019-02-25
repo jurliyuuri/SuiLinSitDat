@@ -6080,7 +6080,13 @@ var lin=
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 407,
+        "form" : "属"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 261,
@@ -11229,6 +11235,25 @@ var lin=
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 407,
+      "form" : "属"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「類」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 260,
+        "form" : "類"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

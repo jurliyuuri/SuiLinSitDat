@@ -327,4 +327,5 @@ var composition=
 {"char":"笙","decomp1":"⿰筒声","decomp2":"","decomp3":"","decomp4":""},
 {"char":"竹","decomp1":"⿰木筒","decomp2":"","decomp3":"","decomp4":""},
 {"char":"竺","decomp1":"⿰筒木","decomp2":"","decomp3":"","decomp4":""},
+{"char":"属","decomp1":"⿰同多","decomp2":"","decomp3":"","decomp4":""},
 null]
