@@ -1015,6 +1015,12 @@ var phertars=
         "id" : 266,
         "form" : "káṇahomá amila"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 317,
+        "form" : "ehaihomá kád"
+      }
     } ]
   }, {
     "entry" : {
@@ -1484,7 +1490,13 @@ var phertars=
       "text" : "*'tqram"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 315,
+        "form" : "aṭam_kád"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 64,
@@ -2405,6 +2417,18 @@ var phertars=
       "entry" : {
         "id" : 301,
         "form" : "kádan"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 315,
+        "form" : "aṭam_kád"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 317,
+        "form" : "ehaihomá kád"
       }
     } ]
   }, {
@@ -7143,7 +7167,13 @@ var phertars=
       "text" : "藍aihei, 牌ai2"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 317,
+        "form" : "ehaihomá kád"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 315,
@@ -7156,7 +7186,19 @@ var phertars=
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 63,
+        "form" : "aṭam"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 103,
+        "form" : "kád"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 316,
@@ -7173,14 +7215,47 @@ var phertars=
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 317,
+      "form" : "ehaihomá kád"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "冠の光", "王冠の光", "アイル共和国国歌「冠光」" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 314,
+        "form" : "ehai"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 44,
+        "form" : "-homá"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 103,
+        "form" : "kád"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
     "wordOrderType" : "UNICODE",
     "punctuations" : [ ",", "　", "、", " ", " " ],
+    "ignoredTranslationRegex" : "",
     "pronunciationTitle" : null,
     "plainInformationTitles" : [ ],
     "informationTitleOrder" : null,
+    "formFontFamily" : null,
     "defaultWord" : {
       "entry" : {
         "id" : -1,
