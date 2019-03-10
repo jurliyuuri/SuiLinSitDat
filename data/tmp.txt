@@ -229,7 +229,7 @@ char	decomp1	decomp2	decomp3	decomp4
 血	⿰心水
 帯
 覆	⿱閉己
-謝
+謝	⿰直為
 豆	⿳五⿻⿻再六再五
 父	⿱上男
 琴	⿰糸声
@@ -268,7 +268,7 @@ char	decomp1	decomp2	decomp3	decomp4
 味	⿱五包
 甘	⿱上味
 型
-歌
+歌	⿰声声
 謎
 裁	⿱別物
 怖
@@ -327,3 +327,5 @@ char	decomp1	decomp2	decomp3	decomp4
 竹	⿰木筒
 竺	⿰筒木
 属	⿰同多
+針	＊亅
+翰	⿰軸筆

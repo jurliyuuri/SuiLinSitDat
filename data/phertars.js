@@ -3160,6 +3160,9 @@ var phertars=
     }, {
       "title" : "ラネーメ祖語形",
       "text" : "*sljoomq"
+    }, {
+      "title" : "用法",
+      "text" : "方言によっては対格を取る。"
     } ],
     "variations" : [ ],
     "relations" : [ ]

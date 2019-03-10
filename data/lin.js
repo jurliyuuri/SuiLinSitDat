@@ -11183,7 +11183,7 @@ var lin=
       "title" : "標準パイグ語",
       "forms" : [ "uep1" ]
     } ],
-    "tags" : [ ],
+    "tags" : [ "人名用字・地名用字" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -11231,7 +11231,7 @@ var lin=
       "title" : "標準パイグ語",
       "forms" : [ "lip" ]
     } ],
-    "tags" : [ ],
+    "tags" : [ "人名用字・地名用字" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -11254,14 +11254,45 @@ var lin=
         "form" : "類"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 408,
+      "form" : "針"
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 409,
+      "form" : "翰"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kuai1" ]
+    }, {
+      "title" : "早見表「古パイグ」",
+      "forms" : [ "kruaeh" ]
+    }, {
+      "title" : "早見表「古パイグ」伝統表記",
+      "forms" : [ "筆将後" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
     "wordOrderType" : "UNICODE",
     "punctuations" : [ ",", "、" ],
+    "ignoredTranslationRegex" : "",
     "pronunciationTitle" : null,
     "plainInformationTitles" : [ ],
     "informationTitleOrder" : null,
+    "formFontFamily" : null,
     "defaultWord" : {
       "entry" : {
         "id" : -1,
