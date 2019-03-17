@@ -7649,7 +7649,13 @@ var perger=
       "text" : "finorxonas.li"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "",
+      "entry" : {
+        "id" : 420,
+        "form" : "ly ni1 ta1"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 382,
@@ -8430,6 +8436,160 @@ var perger=
     } ],
     "tags" : [ ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 420,
+      "form" : "ly ni1 ta1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "須小目" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "リウスニータ" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "リウスニータ" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "冬のユエスレオネで好まれる飲み物のひとつ。全卵と蜂蜜と牛乳を弱火にかけてとろみを出したものにバニラエッセンス、シナモン(hui2 no1)、カルダモン、アニスシードを加えて濾す。"
+    }, {
+      "title" : "同根語",
+      "text" : "li'usnirta.li"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "",
+      "entry" : {
+        "id" : 381,
+        "form" : "hui2 no1"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 421,
+      "form" : "sau2 sin1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "上名" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "姓", "名字", "上の名前" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "姓", "名字", "上の名前" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "パイグ語においては一文字が原則。かなり稀だが二文字以上もいる。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "類義語",
+      "entry" : {
+        "id" : 423,
+        "form" : "mut2 sin1"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 422,
+      "form" : "ut2 sin1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "下名" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "個人名", "下の名前" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "個人名", "下の名前" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "二文字が多いが、一文字も見られる。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 423,
+      "form" : "mut2 sin1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "家名" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "姓", "名字", "上の名前" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "姓", "名字", "上の名前" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "類義語",
+      "entry" : {
+        "id" : 421,
+        "form" : "sau2 sin1"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 424,
+      "form" : "sue1 mui1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "高魚" ]
+    } ],
+    "tags" : [ "人名" ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "ピリフィアー歴805年には、ラネーメ共和国に向かおうとした商業船アクルサー号が沈没し、島嶼部に遭難したレアディオ人イェクト・ユピュイーデャのこと。当時深く理解がなされていなかったパイグ人を中心とした伝統的な言語環境を維持するラネーメ人と接触した。パイグ社会では四年間生活し、810年にパイグ人の助力によってレアディオに戻され、そこで経験したサームカールトの儀式や皇論信仰（タムツイ）の神秘性や美術性に目を取られ、リパラオネ社会に向けて「西方の諸島における先住民の神秘的な生活とその文化について」（西方記）をピリフィアー歴811年に発行した。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 425,
+      "form" : "ni1 let1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "小雪" ]
+    } ],
+    "tags" : [ "人名" ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "ピリフィアー歴801年に木版印刷を一般化した人物。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 426,
+      "form" : "xo1 tuk2 py"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "夏巫力" ]
+    } ],
+    "tags" : [ "人名" ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "PMCFの文化省大臣。タカン人の皇之 上水(タカマ ソラナ)首相による上水政権の下、言語多元主義的政策を推進していくことを検討することになった。"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   } ],

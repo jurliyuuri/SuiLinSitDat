@@ -2294,7 +2294,13 @@ var lin=
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 410,
+        "form" : "寐"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 116,
@@ -11283,6 +11289,25 @@ var lin=
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 410,
+      "form" : "寐"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「寝」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 115,
+        "form" : "寝"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
