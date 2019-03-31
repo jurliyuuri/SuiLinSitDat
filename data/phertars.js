@@ -718,6 +718,18 @@ var phertars=
         "id" : 296,
         "form" : "bhátán rásit"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 320,
+        "form" : "bhátán zepha"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 322,
+        "form" : "wátán zepha"
+      }
     } ]
   }, {
     "entry" : {
@@ -778,6 +790,12 @@ var phertars=
       "entry" : {
         "id" : 293,
         "form" : "káná ká"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 324,
+        "form" : "káná"
       }
     } ]
   }, {
@@ -1269,6 +1287,12 @@ var phertars=
         "id" : 306,
         "form" : "accabát"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 121,
+        "form" : "nínaccú"
+      }
     } ]
   }, {
     "entry" : {
@@ -1719,6 +1743,18 @@ var phertars=
       "entry" : {
         "id" : 296,
         "form" : "bhátán rásit"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 320,
+        "form" : "bhátán zepha"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 321,
+        "form" : "wát"
       }
     } ]
   }, {
@@ -2839,9 +2875,30 @@ var phertars=
     }, {
       "title" : "ラネーメ祖語形",
       "text" : "*ninq+*acii"
+    }, {
+      "title" : "用法",
+      "text" : "筆記媒体そのものではなく、文書が書き込まれたものを指す。"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 331,
+        "form" : "nín"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 52,
+        "form" : "accúḷ"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 332,
+        "form" : "-ú"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 122,
@@ -3228,7 +3285,13 @@ var phertars=
       "text" : "*sui"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 327,
+        "form" : "sú-"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 140,
@@ -3391,6 +3454,18 @@ var phertars=
         "id" : 272,
         "form" : "nautu"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 320,
+        "form" : "bhátán zepha"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 322,
+        "form" : "wátán zepha"
+      }
     } ]
   }, {
     "entry" : {
@@ -3435,7 +3510,13 @@ var phertars=
       "text" : "*zau"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 326,
+        "form" : "zau-"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 149,
@@ -4921,6 +5002,12 @@ var phertars=
         "id" : 293,
         "form" : "káná ká"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 324,
+        "form" : "káná"
+      }
     } ]
   }, {
     "entry" : {
@@ -4988,7 +5075,13 @@ var phertars=
       "text" : "藍kanaka"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 325,
+        "form" : "káná"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 221,
@@ -6632,7 +6725,7 @@ var phertars=
       "form" : "ká"
     },
     "translations" : [ {
-      "title" : "子音幹名詞",
+      "title" : "変化形",
       "forms" : [ "kの複数形" ]
     } ],
     "tags" : [ ],
@@ -6686,6 +6779,12 @@ var phertars=
       "entry" : {
         "id" : 294,
         "form" : "káom ká"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 324,
+        "form" : "káná"
       }
     } ]
   }, {
@@ -7281,6 +7380,340 @@ var phertars=
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 320,
+      "form" : "bhátán zepha"
+    },
+    "translations" : [ {
+      "title" : "母音幹名詞",
+      "forms" : [ "バート語" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 74,
+        "form" : "bhát"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 35,
+        "form" : "-án"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 146,
+        "form" : "zepha"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 322,
+        "form" : "wátán zepha"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 321,
+      "form" : "wát"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "ワート弁", "ワート弁話者" ]
+    } ],
+    "tags" : [ "口語的" ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "bhとwの対立が消えている地域変種の俗な総称。多くの場合、帯気音が摩擦音などに吸収され失われている。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 74,
+        "form" : "bhát"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 322,
+        "form" : "wátán zepha"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 322,
+      "form" : "wátán zepha"
+    },
+    "translations" : [ {
+      "title" : "母音幹名詞",
+      "forms" : [ "ワート弁" ]
+    } ],
+    "tags" : [ "口語的" ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "bhとwの対立が消えている地域変種の俗な総称。多くの場合、帯気音が摩擦音などに吸収され失われている。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 321,
+        "form" : "wát"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 35,
+        "form" : "-án"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 146,
+        "form" : "zepha"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 320,
+        "form" : "bhátán zepha"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 323,
+      "form" : "cahúḷ"
+    },
+    "translations" : [ {
+      "title" : "動作動詞",
+      "forms" : [ "〜(対格)をつかまえる", "〜(対格)を捕まえる", "〜(対格)をとらえる", "〜(対格)を捕らえる", "〜(対格)を逮捕する" ]
+    }, {
+      "title" : "動作動詞",
+      "forms" : [ "〜(対格)をせきとめる" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "「せきとめる」: 藍cahu\n「つかまえる・とらえる」: 藍cwaho"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 328,
+        "form" : "cau-"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 324,
+      "form" : "káná"
+    },
+    "translations" : [ {
+      "title" : "変化形",
+      "forms" : [ "kの複数属格" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 293,
+        "form" : "káná ká"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 216,
+        "form" : "k"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 36,
+        "form" : "-áná"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 325,
+      "form" : "káná"
+    },
+    "translations" : [ {
+      "title" : "変化形",
+      "forms" : [ "kánaghúḷの命令形" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 220,
+        "form" : "kánaghúḷ"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 326,
+      "form" : "zau-"
+    },
+    "translations" : [ {
+      "title" : "強語幹",
+      "forms" : [ "zúḷの強語幹" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 148,
+        "form" : "zúḷ"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 327,
+      "form" : "sú-"
+    },
+    "translations" : [ {
+      "title" : "強語幹",
+      "forms" : [ "sujúḷの強語幹" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 139,
+        "form" : "sujúḷ"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 328,
+      "form" : "cau-"
+    },
+    "translations" : [ {
+      "title" : "強語幹",
+      "forms" : [ "cahúḷの強語幹" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 323,
+        "form" : "cahúḷ"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 329,
+      "form" : "-boh-"
+    },
+    "translations" : [ {
+      "title" : "動詞接中辞",
+      "forms" : [ "将然相" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "「〜しようとしている」「〜するつもりである」という意味を表す状態動詞を作る。"
+    }, {
+      "title" : "同根語",
+      "text" : "伐bohúḷ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異形態",
+      "entry" : {
+        "id" : 330,
+        "form" : "-aboh-"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 330,
+      "form" : "-aboh-"
+    },
+    "translations" : [ {
+      "title" : "動詞接中辞",
+      "forms" : [ "将然相" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "「〜しようとしている」「〜するつもりである」という意味を表す状態動詞を作る。"
+    }, {
+      "title" : "同根語",
+      "text" : "伐bohúḷ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異形態",
+      "entry" : {
+        "id" : 329,
+        "form" : "-boh-"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 331,
+      "form" : "nín"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "紙" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "牌nin1,藍ninu"
+    }, {
+      "title" : "ラネーメ祖語形",
+      "text" : "*ninq"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 121,
+        "form" : "nínaccú"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 332,
+      "form" : "-ú"
+    },
+    "translations" : [ {
+      "title" : "動詞接尾辞",
+      "forms" : [ "名詞化第二接尾辞(痕跡的)" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "nínaccúなどの語に痕跡的に残るだけであり、現在では生産的ではない。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 121,
+        "form" : "nínaccú"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

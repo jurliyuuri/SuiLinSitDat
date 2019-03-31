@@ -619,6 +619,9 @@ var perger=
     }, {
       "title" : "動詞",
       "forms" : [ "書く", "描く" ]
+    }, {
+      "title" : "人名",
+      "forms" : [ "姓の一つ" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -1332,6 +1335,9 @@ var perger=
     }, {
       "title" : "名詞",
       "forms" : [ "法律", "（プログラミングの）関数・サブルーチン" ]
+    }, {
+      "title" : "人名",
+      "forms" : [ "姓の一つ" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -2409,6 +2415,9 @@ var perger=
     }, {
       "title" : "定詞",
       "forms" : [ "高い" ]
+    }, {
+      "title" : "人名",
+      "forms" : [ "姓の一つ" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -2826,6 +2835,9 @@ var perger=
     }, {
       "title" : "名詞",
       "forms" : [ "月" ]
+    }, {
+      "title" : "人名",
+      "forms" : [ "姓の一つ" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -2864,6 +2876,9 @@ var perger=
     }, {
       "title" : "名詞",
       "forms" : [ "夏" ]
+    }, {
+      "title" : "人名",
+      "forms" : [ "姓の一つ" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -3192,6 +3207,9 @@ var perger=
     }, {
       "title" : "名詞",
       "forms" : [ "春" ]
+    }, {
+      "title" : "人名",
+      "forms" : [ "姓の一つ" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -3864,6 +3882,9 @@ var perger=
     }, {
       "title" : "名詞",
       "forms" : [ "書" ]
+    }, {
+      "title" : "人名",
+      "forms" : [ "姓の一つ" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -4863,6 +4884,9 @@ var perger=
     }, {
       "title" : "名詞",
       "forms" : [ "猫" ]
+    }, {
+      "title" : "人名",
+      "forms" : [ "姓の一つ。" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -5091,6 +5115,9 @@ var perger=
     "translations" : [ {
       "title" : "漢字転写",
       "forms" : [ "蜜" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "蜜", "食用にする色のついた液体" ]
     }, {
       "title" : "名詞",
       "forms" : [ "蜜" ]
@@ -5491,7 +5518,7 @@ var perger=
       "forms" : [ "片" ]
     }, {
       "title" : "名詞",
-      "forms" : [ "かけら", "札", "駒", "牌" ]
+      "forms" : [ "かけら", "札", "駒", "牌", "1片(≒55.4mm)" ]
     }, {
       "title" : "動詞",
       "forms" : [ "分ける" ]
@@ -7571,7 +7598,13 @@ var perger=
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "",
+      "entry" : {
+        "id" : 420,
+        "form" : "ly ni1 ta1"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 379,
@@ -7603,23 +7636,8 @@ var perger=
       "title" : "漢字転写",
       "forms" : [ "牛" ]
     }, {
-      "title" : "概念",
-      "forms" : [ "" ]
-    }, {
       "title" : "名詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "動詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "定詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "約詞",
-      "forms" : [ "" ]
-    }, {
-      "title" : "叫詞",
-      "forms" : [ "" ]
+      "forms" : [ "牛" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -8432,7 +8450,10 @@ var perger=
       "forms" : [ "編集者", "編纂者" ]
     }, {
       "title" : "名詞",
-      "forms" : [ "人名(skarsna姓に対応)" ]
+      "forms" : [ "編集者", "編纂者" ]
+    }, {
+      "title" : "人名",
+      "forms" : [ "姓の一つ(skarsna姓に対応)" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
@@ -8456,7 +8477,7 @@ var perger=
     "tags" : [ ],
     "contents" : [ {
       "title" : "文化",
-      "text" : "冬のユエスレオネで好まれる飲み物のひとつ。全卵と蜂蜜と牛乳を弱火にかけてとろみを出したものにバニラエッセンス、シナモン(hui2 no1)、カルダモン、アニスシードを加えて濾す。"
+      "text" : "冬のユエスレオネで好まれる飲み物のひとつ。全卵(uet)と蜂蜜(tum1 sik2)と牛乳(io2 sik2)を弱火にかけてとろみを出したものにバニラエッセンス、シナモン(hui2 no1)、カルダモン、アニスシードを加えて濾す。"
     }, {
       "title" : "同根語",
       "text" : "li'usnirta.li"
@@ -8467,6 +8488,24 @@ var perger=
       "entry" : {
         "id" : 381,
         "form" : "hui2 no1"
+      }
+    }, {
+      "title" : "",
+      "entry" : {
+        "id" : 378,
+        "form" : "uet"
+      }
+    }, {
+      "title" : "",
+      "entry" : {
+        "id" : 428,
+        "form" : "tum1 sik2"
+      }
+    }, {
+      "title" : "",
+      "entry" : {
+        "id" : 429,
+        "form" : "io2 sik2"
       }
     } ]
   }, {
@@ -8590,6 +8629,146 @@ var perger=
       "title" : "文化",
       "text" : "PMCFの文化省大臣。タカン人の皇之 上水(タカマ ソラナ)首相による上水政権の下、言語多元主義的政策を推進していくことを検討することになった。"
     } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 427,
+      "form" : "lup1 lu2 kut2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "鳥新撃" ]
+    } ],
+    "tags" : [ "人名" ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "宇宙戦艦・駆逐艦を設計したファルトクノアのパイグ人設計士。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 428,
+      "form" : "tum1 sik2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "甘蜜" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "蜂蜜" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "",
+      "entry" : {
+        "id" : 420,
+        "form" : "ly ni1 ta1"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 429,
+      "form" : "io2 sik2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "牛蜜" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "牛乳" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "",
+      "entry" : {
+        "id" : 420,
+        "form" : "ly ni1 ta1"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 430,
+      "form" : "uet sik2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "卵蜜" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "卵液" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 431,
+      "form" : "uet nua2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "卵水" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "卵白" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 432,
+      "form" : "kua2 nua2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "筆水" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "(雅語)墨汁" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 433,
+      "form" : "zuo1 bu1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "片箱" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "1立方片(≒170cm^3)" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 434,
+      "form" : "ten1 ten1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "混混" ]
+    }, {
+      "title" : "動詞",
+      "forms" : [ "混ぜる" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
   } ],
