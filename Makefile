@@ -39,3 +39,5 @@ curl:
 	echo char\\tdecomp1\\tdecomp2\\tdecomp3\\tdecomp4 > data/tmp.txt
 	tail -n +4 curl/composition.txt >> data/tmp.txt
 	cat data/tmp.txt | ./tsv2json.sh >> data/composition.js # removes the explanations of ＊ and ％
+
+	curl -L https://sites.google.com/site/linzizihai/akaibu -o curl/akaibu.html
