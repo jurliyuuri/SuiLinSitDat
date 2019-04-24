@@ -333,4 +333,5 @@ var composition=
 {"char":"寐","decomp1":"⿰闇行","decomp2":"","decomp3":"","decomp4":""},
 {"char":"恒","decomp1":"⿳日五日","decomp2":"","decomp3":"","decomp4":""},
 {"char":"立","decomp1":"⿱人五","decomp2":"","decomp3":"","decomp4":""},
+{"char":"享","decomp1":"⿱筆果","decomp2":"","decomp3":"","decomp4":""},
 null]

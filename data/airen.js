@@ -1228,6 +1228,19 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 4979,
+      "form" : "cahu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］（堤防などで）せき止める" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 5306,
       "form" : "camou"
     },
@@ -1824,6 +1837,19 @@ var airen=
       "forms" : [ "［他］切り刻む" ]
     } ],
     "tags" : [ "真理設定", "リパライン語ソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7939,
+      "form" : "cwaho"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］つかまえる,捕らえる;つかむ,把握する;とりこにする" ]
+    } ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -6719,6 +6745,19 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 47386,
+      "form" : "sephu"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］借りる" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 47861,
       "form" : "shaute"
     },
@@ -8804,9 +8843,11 @@ var airen=
     "alphabetOrder" : "",
     "wordOrderType" : "UNICODE",
     "punctuations" : [ ",", "、" ],
+    "ignoredTranslationRegex" : "",
     "pronunciationTitle" : null,
     "plainInformationTitles" : [ ],
     "informationTitleOrder" : null,
+    "formFontFamily" : null,
     "defaultWord" : {
       "entry" : {
         "id" : -1,
