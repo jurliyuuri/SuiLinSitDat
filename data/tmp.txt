@@ -332,3 +332,4 @@ char	decomp1	decomp2	decomp3	decomp4
 寐	⿰闇行
 恒	⿳日五日
 立	⿱人五
+享	⿱筆果
