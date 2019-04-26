@@ -7714,6 +7714,25 @@ var phertars=
         "form" : "nínaccú"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 333,
+      "form" : "lexeḷ"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "レシェール" ]
+    } ],
+    "tags" : [ "人名" ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "理lexerlからの借用。"
+    }, {
+      "title" : "用法",
+      "text" : "人名。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
