@@ -86,28 +86,29 @@ function json_from_dictionaries(character: string): ({
     return accumulator.concat(currentValue);
   }
 
-  interface StringPair {
-    first: string;
-    second: string;
+  
+  interface Pair<T> {
+    first: T;
+    second: T;
   }
 
-  var air_wordlist: StringPair[] = lin_cuop_dat
-    .map(function (a: Word) {
-      var alpha: Translation<"アイル語">[] = lookupByTitleAndAppendIfEmpty(a, "アイル語", ["~"]);
-      var alpha2: string[] = alpha.map(b => b.forms)[0];
+  var air_wordlist: Pair<string>[] = lin_cuop_dat
+    .map(function (word: Word) {
+      var air_translations: Translation<"アイル語">[] = lookupByTitleAndAppendIfEmpty(word, "アイル語", ["~"]);
+      var air_translations_forms: string[] = air_translations.map(b => b.forms)[0];
 
-      var beta: Translation<"アイル語(辞書表記)">[] = lookupByTitleAndAppendIfEmpty(a, "アイル語(辞書表記)", ["~"]);
-      var beta2: string[] = beta.map(b => b.forms)[0];
+      var air_dict_translations: Translation<"アイル語(辞書表記)">[] = lookupByTitleAndAppendIfEmpty(word, "アイル語(辞書表記)", ["~"]);
+      var air_dict_translations_forms: string[] = air_dict_translations.map(b => b.forms)[0];
 
-      return alpha2.map(function (e: string, i: number) {
-        return { first: e, second: beta2[i] };
+      return air_translations_forms.map(function (e: string, i: number) {
+        return { first: e, second: air_dict_translations_forms[i] };
       });
     })
     .reduce(reducer)
-    .filter((a: StringPair) => a.first !== "~" || a.second !== "~")
-    .filter((a: StringPair) => a.first !== "*" || a.second !== "*");
+    .filter((a: Pair<string>) => a.first !== "~" || a.second !== "~")
+    .filter((a: Pair<string>) => a.first !== "*" || a.second !== "*");
 
-  var air_word_candidate: Word[][] = air_wordlist.map((w: StringPair) =>
+  var air_word_candidate: Word[][] = air_wordlist.map((w: Pair<string>) =>
     airen.words.filter(function (a: Word): boolean {
       /* does not match */
 

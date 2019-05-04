@@ -33,13 +33,13 @@ function json_from_dictionaries(character) {
         return accumulator.concat(currentValue);
     }
     var air_wordlist = lin_cuop_dat
-        .map(function (a) {
-        var alpha = lookupByTitleAndAppendIfEmpty(a, "アイル語", ["~"]);
-        var alpha2 = alpha.map(b => b.forms)[0];
-        var beta = lookupByTitleAndAppendIfEmpty(a, "アイル語(辞書表記)", ["~"]);
-        var beta2 = beta.map(b => b.forms)[0];
-        return alpha2.map(function (e, i) {
-            return { first: e, second: beta2[i] };
+        .map(function (word) {
+        var air_translations = lookupByTitleAndAppendIfEmpty(word, "アイル語", ["~"]);
+        var air_translations_forms = air_translations.map(b => b.forms)[0];
+        var air_dict_translations = lookupByTitleAndAppendIfEmpty(word, "アイル語(辞書表記)", ["~"]);
+        var air_dict_translations_forms = air_dict_translations.map(b => b.forms)[0];
+        return air_translations_forms.map(function (e, i) {
+            return { first: e, second: air_dict_translations_forms[i] };
         });
     })
         .reduce(reducer)
