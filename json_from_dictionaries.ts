@@ -4,7 +4,7 @@ interface OTM_JSON {
 
 interface Word {
   entry: Entry;
-  translations: Array<Translation>;
+  translations: Array<Translation<string>>;
   "tags": Array<string>;
   "contents": Array<Content>;
   "variations": Array<Variation>;
@@ -16,8 +16,8 @@ interface Entry {
   form: string;
 }
 
-interface Translation {
-  title: string;
+interface Translation<Language extends string> {
+  title: Language;
   forms: Array<string>;
 }
 
@@ -44,8 +44,18 @@ declare var perger: OTM_JSON;
 declare var airen: OTM_JSON;
 declare var takan_cen: OTM_JSON;
 
-function lookupByTitle(trs: Word, title: string): Translation[] {
-  return trs.translations.filter(b => b.title === title);
+/* the output can single out what's specified by title */
+function lookupByTitle<Title extends string>(trs: Word, title: Title): Translation<Title>[] {
+  return <Translation<Title>[]>trs.translations.filter(b => b.title === title);
+}
+
+function lookupByTitleAndAppendIfEmpty<Title extends string>(a: Word, title: Title, forms_to_append: string[] ){
+  var arr = lookupByTitle<Title>(a, title);
+  if (arr.length === 0) {
+    return [{ title: title, forms: forms_to_append}];
+  } else {
+    return arr;
+  }
 }
 
 function json_from_dictionaries(character: string): ({
@@ -62,7 +72,7 @@ function json_from_dictionaries(character: string): ({
 			return a.translations.filter(b => b.title === "標準パイグ語").map(b => b.forms)
 		});*/
   var pek: Word[] = perger.words.filter(function (a: Word): boolean {
-    var arr: Translation[] = lookupByTitle(a, "漢字転写");
+    var arr: Translation<"漢字転写">[] = lookupByTitle(a, "漢字転写");
     if (arr.length === 0) {
       return false;
     }
@@ -77,37 +87,31 @@ function json_from_dictionaries(character: string): ({
   }
 
   interface StringPair {
-    alpha: string;
-    beta: string;
+    first: string;
+    second: string;
   }
 
   var air_wordlist: StringPair[] = lin_cuop_dat
     .map(function (a: Word) {
-      var alpha: Translation[] = lookupByTitle(a, "アイル語");
-      if (alpha.length === 0) {
-        alpha = [{ title: "アイル語", forms: ["~"] }];
-      }
+      var alpha: Translation<"アイル語">[] = lookupByTitleAndAppendIfEmpty(a, "アイル語", ["~"]);
       var alpha2: string[] = alpha.map(b => b.forms)[0];
 
-      var beta: Translation[] = lookupByTitle(a, "アイル語(辞書表記)");
-      if (beta.length === 0) {
-        beta = [{ title: "アイル語(辞書表記)", forms: ["~"] }];
-      }
+      var beta: Translation<"アイル語(辞書表記)">[] = lookupByTitleAndAppendIfEmpty(a, "アイル語(辞書表記)", ["~"]);
       var beta2: string[] = beta.map(b => b.forms)[0];
 
       return alpha2.map(function (e: string, i: number) {
-        return { alpha: e, beta: beta2[i] };
+        return { first: e, second: beta2[i] };
       });
     })
     .reduce(reducer)
-    .filter((a: StringPair) => a.alpha !== "~" || a.beta !== "~")
-    .filter((a: StringPair) => a.alpha !== "*" || a.beta !== "*");
+    .filter((a: StringPair) => a.first !== "~" || a.second !== "~")
+    .filter((a: StringPair) => a.first !== "*" || a.second !== "*");
 
   var air_word_candidate: Word[][] = air_wordlist.map((w: StringPair) =>
     airen.words.filter(function (a: Word): boolean {
       /* does not match */
 
-      if (a.entry.form !== w.alpha) {
+      if (a.entry.form !== w.first) {
         return false;
       } else {
         /* matches, but the old form may not match*/
@@ -117,21 +121,20 @@ function json_from_dictionaries(character: string): ({
           .map((q: Content) => q.text);
 
         /* old equals the new */
-        if (w.alpha === w.beta) {
+        if (w.first === w.second) {
           /* "旧辞書表記" should not exist in this case */
 
           return old_form.length === 0;
         } else {
-          return w.beta === old_form[0];
+          return w.second === old_form[0];
         }
       }
     })
   );
 
   var takan: Word[] = takan_cen.words.filter(function (a: Word): boolean {
-    var forms: string[][] = a.translations
-      .filter((b: Translation) => b.title === "漢字仮名混じり転写")
-      .map((c: Translation) => c.forms);
+    var forms: string[][] = lookupByTitle(a, "漢字仮名混じり転写")
+      .map((c: Translation<"漢字仮名混じり転写">) => c.forms);
     return forms.filter(str => str.includes(character)).length > 0;
   });
 
