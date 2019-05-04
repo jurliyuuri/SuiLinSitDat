@@ -11,9 +11,6 @@ ts:
 	prettier --write *.js
 
 curl:
-	#curl -L http://jurliyuuri.com/lin-marn/image_table/image_existence_table.json -o data/image_existence_table.json
-	#curl -L http://jurliyuuri.com/lin-marn/image_table/image_existence_table.js -o data/image_existence_table.js
-	#curl -L http://jurliyuuri.com/lin-marn/image_table/char_and_folder_info.js -o data/char_and_folder_info.js
 	curl -L http://jurliyuuri.com/praige-zerp/prai%20ge%20zerp.json -o curl/prai_ge_zerp.json
 	echo var perger= > data/perger.js
 	cat curl/prai_ge_zerp.json >> data/perger.js
