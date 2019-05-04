@@ -29,14 +29,13 @@ function print_compositions(char) {
             // end of array
             break;
         }
-        if (obj.char === char) {
-            var ans = "<div style='border: 1px solid blue; padding: 5px; margin:5px'>" +
+        else if (obj.char === char) {
+            return ("<div style='border: 1px solid blue; padding: 5px; margin:5px'>" +
                 print_single_composition(obj.decomp1) +
                 print_single_composition(obj.decomp2) +
                 print_single_composition(obj.decomp3) +
                 print_single_composition(obj.decomp4) +
-                "</div>";
-            return ans;
+                "</div>");
         }
     }
     return "<div style='border: 1px solid red; padding: 5px; margin:5px'>構成情報なし</div>";

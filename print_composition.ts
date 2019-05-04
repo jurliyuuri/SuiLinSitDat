@@ -7,7 +7,8 @@ interface DecompElem {
 }
 
 declare var composition: (DecompElem | null)[];
-declare function getImage(character: string, type_prec: Array<string>, size: number, path: string): string;
+type ImageAuthor = "SY" | "border" | "noborder" | "jv";
+declare function getImage(character: string, type_prec: Array<ImageAuthor>, size: number, path?: string): string;
 
 function print_single_composition(comp: string): string {
   if (comp === "") return "";
@@ -42,17 +43,15 @@ function print_compositions(char: string): string {
     if (obj === null) {
       // end of array
       break;
-    }
-
-    if (obj!.char === char) {
-      var ans =
+    } else if (obj.char === char) {
+      return (
         "<div style='border: 1px solid blue; padding: 5px; margin:5px'>" +
         print_single_composition(obj!.decomp1) +
         print_single_composition(obj!.decomp2) +
         print_single_composition(obj!.decomp3) +
         print_single_composition(obj!.decomp4) +
-        "</div>";
-      return ans;
+        "</div>"
+      );
     }
   }
   return "<div style='border: 1px solid red; padding: 5px; margin:5px'>構成情報なし</div>";
