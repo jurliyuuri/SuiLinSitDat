@@ -39,10 +39,6 @@ interface Relation {
   }
 }
 
-interface Array<T> {
-  includes(searchElement: T, fromIndex?: number): boolean
-}
-
 declare var lin: OTM_JSON;
 declare var perger: OTM_JSON;
 declare var airen: OTM_JSON;

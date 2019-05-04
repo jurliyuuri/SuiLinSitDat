@@ -2,10 +2,12 @@
     "compilerOptions": {
         "outDir": ".",
         "allowJs": true,
-        "target": "es6",
+        "target": "es2016",
         "strictNullChecks": true
     },
     "include": [
-        "./**/*"
-    ]
+        "json_from_dictionaries.ts",
+        "print_composition.ts"
+    ],
+    "exclude": []
 }
