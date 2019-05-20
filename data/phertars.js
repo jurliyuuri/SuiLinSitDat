@@ -2209,7 +2209,7 @@ var phertars=
     },
     "translations" : [ {
       "title" : "状態動詞",
-      "forms" : [ "ある", "存在する", "(hína)には(主語)がある", "(hína)は(主語)を持っている" ]
+      "forms" : [ "ある", "存在する", "〜(hína)には〜(主語)がある", "〜(hína)は〜(主語)を持っている" ]
     }, {
       "title" : "状態動詞",
       "forms" : [ "〜(不定詞)している最中だ" ]
@@ -3315,6 +3315,12 @@ var phertars=
       "entry" : {
         "id" : 138,
         "form" : "su"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 334,
+        "form" : "su_zau-"
       }
     } ]
   }, {
@@ -7730,6 +7736,60 @@ var phertars=
     }, {
       "title" : "用法",
       "text" : "人名。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 334,
+      "form" : "su_zau-"
+    },
+    "translations" : [ {
+      "title" : "強語幹",
+      "forms" : [ "suúḷの強語幹" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 140,
+        "form" : "suúḷ"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 335,
+      "form" : "otúḷ"
+    },
+    "translations" : [ {
+      "title" : "動作動詞",
+      "forms" : [ "〜(対格)を〜(具格)で置き換える" ]
+    }, {
+      "title" : "状態動詞",
+      "forms" : [ "〜(主格)は〜(対格)に取って代わるものである" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "藍hotei"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 336,
+      "form" : "bhoheúḷ"
+    },
+    "translations" : [ {
+      "title" : "動作動詞",
+      "forms" : [ "〜(対格)(二つ以上のもの)を交換する" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "藍bohai"
     } ],
     "variations" : [ ],
     "relations" : [ ]
