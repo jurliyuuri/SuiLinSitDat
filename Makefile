@@ -7,7 +7,7 @@ all:
 	make ts
 
 ts:
-	tsc *.ts --strictNullChecks || true
+	tsc --strictNullChecks
 	prettier --write *.js
 
 curl:
