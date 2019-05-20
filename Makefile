@@ -8,7 +8,6 @@ all:
 
 ts:
 	tsc --strictNullChecks
-	prettier --write *.js
 
 curl:
 	curl -L http://jurliyuuri.com/praige-zerp/prai%20ge%20zerp.json -o curl/prai_ge_zerp.json
