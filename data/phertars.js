@@ -3522,6 +3522,12 @@ var phertars=
         "id" : 326,
         "form" : "zau-"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 337,
+        "form" : "záúḷ"
+      }
     } ]
   }, {
     "entry" : {
@@ -5827,6 +5833,12 @@ var phertars=
         "id" : 191,
         "form" : "janáúḷ"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 337,
+        "form" : "záúḷ"
+      }
     } ]
   }, {
     "entry" : {
@@ -6490,6 +6502,12 @@ var phertars=
       "entry" : {
         "id" : 102,
         "form" : "kádúḷ"
+      }
+    }, {
+      "title" : "類義語",
+      "entry" : {
+        "id" : 339,
+        "form" : "aḍuhazáúḷ"
       }
     } ]
   }, {
@@ -7790,6 +7808,88 @@ var phertars=
     "contents" : [ {
       "title" : "同根語",
       "text" : "藍bohai"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 337,
+      "form" : "záúḷ"
+    },
+    "translations" : [ {
+      "title" : "動作動詞",
+      "forms" : [ "〜(対格)を〜(具格)(行為者)にさせる・行なわせる・行わせる" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 148,
+        "form" : "zúḷ"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 255,
+        "form" : "-á-"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 338,
+      "form" : "-zá-"
+    },
+    "translations" : [ {
+      "title" : "動詞接中辞",
+      "forms" : [ "使役化接辞", "〜させる" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "動詞の語幹に付き、使役性の他動詞を作る。動詞が自動詞である場合、元の動詞の行為者は目的語となる。動詞が他動詞である場合、元の動詞の目的語は目的語のままであり、元の動詞の行為者は具格となる。"
+    }, {
+      "title" : "同根語",
+      "text" : "伐záúḷ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 339,
+      "form" : "aḍuhazáúḷ"
+    },
+    "translations" : [ {
+      "title" : "動作動詞",
+      "forms" : [ "〜(対格)を〜(具格)(人)に見させる", "〜(対格)を〜(具格)(人)に対して見せる", "〜(対格)を〜(具格)(人)に観測させる" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "類義語",
+      "entry" : {
+        "id" : 280,
+        "form" : "kádaúḷ"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 340,
+      "form" : "-azá-"
+    },
+    "translations" : [ {
+      "title" : "動詞接中辞",
+      "forms" : [ "使役化接辞", "〜させる" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "動詞の語幹に付き、使役性の他動詞を作る。動詞が自動詞である場合、元の動詞の行為者は目的語となる。動詞が他動詞である場合、元の動詞の目的語は目的語のままであり、元の動詞の行為者は具格となる。"
+    }, {
+      "title" : "同根語",
+      "text" : "伐záúḷ"
     } ],
     "variations" : [ ],
     "relations" : [ ]
