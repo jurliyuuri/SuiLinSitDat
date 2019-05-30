@@ -4043,9 +4043,18 @@ var perger=
     "translations" : [ {
       "title" : "漢字転写",
       "forms" : [ "貧" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "所有物が少ない" ]
+    }, {
+      "title" : "定詞",
+      "forms" : [ "少ない・貧しい" ]
     } ],
     "tags" : [ ],
-    "contents" : [ ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "hue1 to2は「樽の個数が多いこと」、hei2 to2は「樽の中身が少ないこと」を表す。hue1 cuk2は「少数派」（または「若い人」）であり、hei2 cuk2は「持っているものが少ない人」、つまり「貧しい人」である。hue1 cuk2が「若い人」でもあるのは、年老いた人というのは別に年齢1・年齢2・年齢3を持っている人物ではないからである。"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
@@ -4437,6 +4446,9 @@ var perger=
     "contents" : [ {
       "title" : "同根語",
       "text" : "huroe.ar"
+    }, {
+      "title" : "用法",
+      "text" : "hue1 to2は「樽の個数が多いこと」、hei2 to2は「樽の中身が少ないこと」を表す。hue1 cuk2は「少数派」（または「若い人」）であり、hei2 cuk2は「持っているものが少ない人」、つまり「貧しい人」である。hue1 cuk2が「若い人」でもあるのは、年老いた人というのは別に年齢1・年齢2・年齢3を持っている人物ではないからである。"
     } ],
     "variations" : [ ],
     "relations" : [ ]
@@ -8812,6 +8824,82 @@ var perger=
     "contents" : [ {
       "title" : "同根語",
       "text" : "ziphei.ar"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 437,
+      "form" : "xi1 xo2 hei2 to2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "足錘貧樽" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "何画で書くか揺れがある燐字/燐字字素" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "燐字「足」「錘」「貧」「樽」の画数は人や辞書によって差異がある（ほかには「膠」など）ことから、画数検索などの用途においてこれを明記する必要がある際に用いる概念。"
+    }, {
+      "title" : "例文",
+      "text" : "ka1 zep1 dat2 xi1 xo2 hei2 to2 ka1 em nan2? (この辞書の足錘貧樽はどうなっていますか？)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 438,
+      "form" : "xi1 xo2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "足錘" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "(刑罰のために)足につける錘", "(比喩的な)足かせ " ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "「心圧」に該当すると考えられるため、ラネーメ圏ではあまり好まれない。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 439,
+      "form" : "kaik dat2"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "戦集", "軍" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "軍", "(パイグ将棋の)片方の陣営" ]
+    } ],
+    "tags" : [ "机戦" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 440,
+      "form" : "nie"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "隊" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "パイグ将棋の駒を作る際の8つ1まとまり", "1バイト" ]
+    } ],
+    "tags" : [ "机戦", "悠里OS" ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "niek1"
     } ],
     "variations" : [ ],
     "relations" : [ ]

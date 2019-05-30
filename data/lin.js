@@ -7631,10 +7631,10 @@ var lin=
       "forms" : [ "zau" ]
     }, {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "tsau" ]
+      "forms" : [ "tsrau" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "広形素" ]
+      "forms" : [ "彼形素" ]
     }, {
       "title" : "アイル語",
       "forms" : [ "chauchu" ]
@@ -7671,10 +7671,10 @@ var lin=
       "forms" : [ "ze1" ]
     }, {
       "title" : "早見表「古パイグ」",
-      "forms" : [ "tsvh" ]
+      "forms" : [ "tsrvh" ]
     }, {
       "title" : "早見表「古パイグ」伝統表記",
-      "forms" : [ "広全素" ]
+      "forms" : [ "彼全素" ]
     }, {
       "title" : "アイル語",
       "forms" : [ "chesi" ]
@@ -11347,6 +11347,32 @@ var lin=
     }, {
       "title" : "アイル語(辞書表記)",
       "forms" : [ "ziphei" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 413,
+      "form" : "軍"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "kaik dat2" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 414,
+      "form" : "隊"
+    },
+    "translations" : [ {
+      "title" : "標準パイグ語",
+      "forms" : [ "nie" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],

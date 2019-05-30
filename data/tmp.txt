@@ -333,3 +333,5 @@ char	decomp1	decomp2	decomp3	decomp4
 恒	⿳日五日
 立	⿱人五
 享	⿱筆果
+軍	⿰兵⿱兵兵
+隊	⿱兵兵
