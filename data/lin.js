@@ -8050,7 +8050,7 @@ var lin=
       "forms" : [ "nami" ]
     }, {
       "title" : "タカン語皇音",
-      "forms" : [ "けなむ" ]
+      "forms" : [ "なが", "ながむ", "ながん", "かむ" ]
     }, {
       "title" : "タカン語牌音古音",
       "forms" : [ "ア" ]
@@ -8166,7 +8166,7 @@ var lin=
       "forms" : [ "suna-asi" ]
     }, {
       "title" : "タカン語皇音",
-      "forms" : [ "なじ" ]
+      "forms" : [ "すなじ" ]
     }, {
       "title" : "タカン語牌音古音",
       "forms" : [ "ネ" ]
@@ -8288,7 +8288,7 @@ var lin=
       "forms" : [ "suna-iku" ]
     }, {
       "title" : "タカン語皇音",
-      "forms" : [ "ねく" ]
+      "forms" : [ "すねく" ]
     }, {
       "title" : "タカン語牌音古音",
       "forms" : [ "ニ" ]
@@ -9356,7 +9356,7 @@ var lin=
       "forms" : [ "aima" ]
     }, {
       "title" : "タカン語皇音",
-      "forms" : [ "え", "え-む", "えま-る" ]
+      "forms" : [ "えま", "え-む", "えま-る" ]
     }, {
       "title" : "タカン語牌音古音",
       "forms" : [ "アイ" ]
@@ -11373,6 +11373,28 @@ var lin=
     "translations" : [ {
       "title" : "標準パイグ語",
       "forms" : [ "nie" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 415,
+      "form" : "思"
+    },
+    "translations" : [ {
+      "title" : "アイル語",
+      "forms" : [ "IMIKA" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "imika" ]
+    }, {
+      "title" : "タカン語皇音(リパーシェ表記)",
+      "forms" : [ "imik-u" ]
+    }, {
+      "title" : "タカン語皇音",
+      "forms" : [ "いみく" ]
     } ],
     "tags" : [ ],
     "contents" : [ ],
