@@ -280,7 +280,7 @@ var composition=
 {"char":"震","decomp1":"⿲無＊中少","decomp2":"","decomp3":"","decomp4":""},
 {"char":"加","decomp1":"⿻五＊儿","decomp2":"","decomp3":"","decomp4":""},
 {"char":"別","decomp1":"⿲＊㇀＊儿無","decomp2":"","decomp3":"","decomp4":""},
-{"char":"青","decomp1":"","decomp2":"","decomp3":"","decomp4":""},
+{"char":"青","decomp1":"⿰色水","decomp2":"","decomp3":"","decomp4":""},
 {"char":"嗅","decomp1":"⿻筆一","decomp2":"","decomp3":"","decomp4":""},
 {"char":"後","decomp1":"⿱背処","decomp2":"","decomp3":"","decomp4":""},
 {"char":"歪","decomp1":"⿱＊フ十","decomp2":"","decomp3":"","decomp4":""},
