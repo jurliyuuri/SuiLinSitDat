@@ -11400,6 +11400,25 @@ var lin=
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 416,
+      "form" : "橋"
+    },
+    "translations" : [ {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "MITIKU" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "mitiku" ]
+    }, {
+      "title" : "標準パイグ語",
+      "forms" : [ "mit" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

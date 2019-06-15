@@ -1039,6 +1039,12 @@ var phertars=
         "id" : 317,
         "form" : "ehaihomá kád"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 342,
+        "form" : "phaigahomá zepha"
+      }
     } ]
   }, {
     "entry" : {
@@ -1451,7 +1457,13 @@ var phertars=
       "text" : "直後に名詞を要求する。"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 345,
+        "form" : "amáma bohú"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 61,
@@ -1844,7 +1856,13 @@ var phertars=
       "text" : "*morq"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 345,
+        "form" : "amáma bohú"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 79,
@@ -2438,6 +2456,9 @@ var phertars=
     "translations" : [ {
       "title" : "子音幹名詞",
       "forms" : [ "光" ]
+    }, {
+      "title" : "子音幹名詞",
+      "forms" : [ "視線", "注目" ]
     } ],
     "tags" : [ ],
     "contents" : [ {
@@ -3471,6 +3492,12 @@ var phertars=
       "entry" : {
         "id" : 322,
         "form" : "wátán zepha"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 342,
+        "form" : "phaigahomá zepha"
       }
     } ]
   }, {
@@ -7737,6 +7764,12 @@ var phertars=
         "id" : 121,
         "form" : "nínaccú"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 345,
+        "form" : "amáma bohú"
+      }
     } ]
   }, {
     "entry" : {
@@ -7893,6 +7926,122 @@ var phertars=
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 341,
+      "form" : "phaiga"
+    },
+    "translations" : [ {
+      "title" : "母音幹名詞",
+      "forms" : [ "(属格で)パイグの" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 342,
+        "form" : "phaigahomá zepha"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 342,
+      "form" : "phaigahomá zepha"
+    },
+    "translations" : [ {
+      "title" : "母音幹名詞",
+      "forms" : [ "パイグ語" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 341,
+        "form" : "phaiga"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 44,
+        "form" : "-homá"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 146,
+        "form" : "zepha"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 343,
+      "form" : "xághaika"
+    },
+    "translations" : [ {
+      "title" : "母音幹名詞",
+      "forms" : [ "目立ちたがり屋" ]
+    } ],
+    "tags" : [ "口語的" ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "牌 hia1 + 牌 aik2 + 牌 a。パイグ語 aik2 と異なり、バート語kádには「光」の他にもkádúḷ「目立つ」の名詞化として「視線・注目」という意味がある。また、バート語では、「属格 + k」の主格が単体の属格で現れるため、属格接辞が結果として単立できるが、パイグ語ではこれは不可能であり、この位置のaは感嘆詞として解釈される。よってパイグ語 hia1 aik2 a. は「光りたいです。」という意味にしかならない、言うなれば「伐製牌語」である。hi- が x- で借用されているのは、ワート弁の影響である。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 344,
+      "form" : "gháyoúḷ"
+    },
+    "translations" : [ {
+      "title" : "動作動詞",
+      "forms" : [ "鋳造する" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "藍ngaiweo"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 345,
+      "form" : "amáma bohú"
+    },
+    "translations" : [ {
+      "title" : "母音幹名詞",
+      "forms" : [ "「大移住」", "「大退去」" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "文化",
+      "text" : "「大移住」。「大退去」とも。バート人がグォン・アルト藩国を去らなくてはいけなくなった2000年の痛ましい事件とそれに次ぐ混乱を指す。単に「行く」の意味もあれば「(永久に)去る」の意味を持つbohúḷは（訳語が揺れるのはそのため）、心の故郷であるグォン・アルト藩国に帰れる見込みの乏しいバート人の思いをよく表現しているともいえよう。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 60,
+        "form" : "amáma"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 78,
+        "form" : "bohúḷ"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 332,
+        "form" : "-ú"
+      }
+    } ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",

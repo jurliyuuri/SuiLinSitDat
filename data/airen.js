@@ -5030,6 +5030,22 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 29667,
+      "form" : "mitiku"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "橋,はし.①,ブリッジ," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "MITIKU"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 29710,
       "form" : "miwou"
     },
@@ -5392,6 +5408,19 @@ var airen=
       "forms" : [ "［略］=fralino,～さん（未婚女性への敬称）,{Ｏ}樹脂材" ]
     } ],
     "tags" : [ "真理設定", "いせにほソース" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 32225,
+      "form" : "ngaiweo"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "［他］鋳上げる,鋳造する" ]
+    } ],
+    "tags" : [ "真理設定" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
@@ -7875,6 +7904,22 @@ var airen=
     } ],
     "tags" : [ "真理設定" ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 55507,
+      "form" : "tukumuku"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "歩道橋," ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ {
+      "title" : "旧辞書表記",
+      "text" : "TUKUMUKU"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   }, {
