@@ -11419,6 +11419,25 @@ var lin=
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 417,
+      "form" : "帝"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "adheṣ" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "ateai" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "ateai" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
