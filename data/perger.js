@@ -9195,6 +9195,22 @@ var perger=
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 454,
+      "form" : "lip zep1"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "哩言" ]
+    }, {
+      "title" : "名詞",
+      "forms" : [ "リパライン語" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "pbmcsxztdnlkghaeoiuy",

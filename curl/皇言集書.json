@@ -2810,6 +2810,75 @@
       "form" : "imiki"
     } ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 130,
+      "form" : "moga"
+    },
+    "translations" : [ {
+      "title" : "漢字仮名混じり転写",
+      "forms" : [ "色" ]
+    }, {
+      "title" : "体言",
+      "forms" : [ "色", "様子" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "pok.pk\npoga.ar"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 131,
+      "form" : "kuwi"
+    },
+    "translations" : [ {
+      "title" : "漢字仮名混じり転写",
+      "forms" : [ "傷" ]
+    }, {
+      "title" : "体言",
+      "forms" : [ "傷" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "gui2.pk\nngui.ar"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 132,
+      "form" : "na-lu"
+    },
+    "translations" : [ {
+      "title" : "漢字仮名混じり転写",
+      "forms" : [ "静る" ]
+    }, {
+      "title" : "用言",
+      "forms" : [ "静かだ", "静かな" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "anaa.ar\nna1.pk"
+    } ],
+    "variations" : [ {
+      "title" : "終止形",
+      "form" : "nalu"
+    }, {
+      "title" : "連体形",
+      "form" : "nala"
+    }, {
+      "title" : "連用形",
+      "form" : "na"
+    }, {
+      "title" : "命令形",
+      "form" : "naci"
+    } ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "aeiuopbmcstdnlkgjwrx",

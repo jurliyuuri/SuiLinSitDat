@@ -307,4 +307,7 @@ var composition=
 {"char":"享","decomp1":"⿱筆果","decomp2":"","decomp3":"","decomp4":""},
 {"char":"軍","decomp1":"⿰兵⿱兵兵","decomp2":"","decomp3":"","decomp4":""},
 {"char":"隊","decomp1":"⿱兵兵","decomp2":"","decomp3":"","decomp4":""},
+{"char":"止","decomp1":"⿱五足","decomp2":"","decomp3":"","decomp4":""},
+{"char":"秋","decomp1":"⿰米刀","decomp2":"","decomp3":"","decomp4":""},
+{"char":"冬","decomp1":"⿱閉日","decomp2":"","decomp3":"","decomp4":""},
 null]

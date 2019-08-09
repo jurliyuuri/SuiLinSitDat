@@ -2109,6 +2109,12 @@ var phertars=
         "id" : 277,
         "form" : "bháhepa"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 347,
+        "form" : "epam"
+      }
     } ]
   }, {
     "entry" : {
@@ -2468,7 +2474,10 @@ var phertars=
       "title" : "ラネーメ祖語形",
       "text" : "*raikqt"
     } ],
-    "variations" : [ ],
+    "variations" : [ {
+      "title" : "旧正書法",
+      "form" : "káḷd"
+    } ],
     "relations" : [ {
       "title" : "派生関係",
       "entry" : {
@@ -3406,7 +3415,19 @@ var phertars=
       "text" : "*fokjut"
     } ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 348,
+        "form" : "woghitam"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 349,
+        "form" : "woghitaim"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 144,
@@ -3778,6 +3799,12 @@ var phertars=
         "id" : 157,
         "form" : "-waim"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 349,
+        "form" : "woghitaim"
+      }
     } ]
   }, {
     "entry" : {
@@ -3826,6 +3853,12 @@ var phertars=
       "entry" : {
         "id" : 300,
         "form" : "bánim"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 347,
+        "form" : "epam"
       }
     } ]
   }, {
@@ -3900,6 +3933,12 @@ var phertars=
       "entry" : {
         "id" : 163,
         "form" : "-an"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 348,
+        "form" : "woghitam"
       }
     } ]
   }, {
@@ -6339,6 +6378,12 @@ var phertars=
         "id" : 146,
         "form" : "zepha"
       }
+    }, {
+      "title" : "異形態",
+      "entry" : {
+        "id" : 351,
+        "form" : "nauṭu"
+      }
     } ]
   }, {
     "entry" : {
@@ -7033,7 +7078,10 @@ var phertars=
     } ],
     "tags" : [ "人名" ],
     "contents" : [ ],
-    "variations" : [ ],
+    "variations" : [ {
+      "title" : "旧正書法",
+      "form" : "káḷdan"
+    } ],
     "relations" : [ {
       "title" : "派生関係",
       "entry" : {
@@ -7780,7 +7828,7 @@ var phertars=
       "title" : "子音幹名詞",
       "forms" : [ "レシェール" ]
     } ],
-    "tags" : [ "人名" ],
+    "tags" : [ "人名", "姓", "外来姓" ],
     "contents" : [ {
       "title" : "同根語",
       "text" : "理lexerlからの借用。"
@@ -8042,6 +8090,158 @@ var phertars=
         "form" : "-ú"
       }
     } ]
+  }, {
+    "entry" : {
+      "id" : 346,
+      "form" : "ghitto"
+    },
+    "translations" : [ {
+      "title" : "母音幹名詞",
+      "forms" : [ "jekto姓" ]
+    } ],
+    "tags" : [ "人名", "姓", "外来姓" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 347,
+      "form" : "epam"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "（人名）" ]
+    } ],
+    "tags" : [ "人名" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 88,
+        "form" : "epa"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 159,
+        "form" : "-m"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 348,
+      "form" : "woghitam"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "（人名）" ]
+    } ],
+    "tags" : [ "人名" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 143,
+        "form" : "woghit"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 162,
+        "form" : "-am"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 349,
+      "form" : "woghitaim"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "（人名）" ]
+    } ],
+    "tags" : [ "人名" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 143,
+        "form" : "woghit"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 158,
+        "form" : "-aim"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 350,
+      "form" : "khem"
+    },
+    "translations" : [ {
+      "title" : "無変化動詞",
+      "forms" : [ "～(主格)は～(属格・形容詞)のものである" ]
+    } ],
+    "tags" : [ "口語的" ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "形式名詞 k とコピュラ hem（〜である）が縮約して成立した単語。"
+    }, {
+      "title" : "同根語",
+      "text" : "k hem"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 351,
+      "form" : "nauṭu"
+    },
+    "translations" : [ {
+      "title" : "母音幹名詞",
+      "forms" : [ "nautuの方言形" ]
+    } ],
+    "tags" : [ "口語的" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異形態",
+      "entry" : {
+        "id" : 272,
+        "form" : "nautu"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 352,
+      "form" : "ea"
+    },
+    "translations" : [ {
+      "title" : "間投詞",
+      "forms" : [ "えーっと", "えー", "あのー" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 353,
+      "form" : "aḍí"
+    },
+    "translations" : [ {
+      "title" : "間投詞",
+      "forms" : [ "えーっと", "あのー", "えー" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "",
@@ -8064,5 +8264,5 @@ var phertars=
       "relations" : [ ]
     }
   },
-  "snoj" : "\nPUNCTUATION = \".\" | \",\" | \"_\";\n\nretroflex = \"ṇ\" | \"ṭ\" | \"ḍ\" | \"ṣ\" | \"ḷ\"\nvowel = \"au\" | \"ai\" | \"á\"  | \"í\"  | \"ú\"  | \"e\"  | \"o\"  | \"a\"  | \"i\"  | \"u\" \n\n\"ph\" -> /pʰ/\n\"bh\" -> /bʱ/\n\"dh\" -> /dʱ/\n\"ṣl\" -> /ʂɻ/\n\"l\" ^ -> /ɾə/\n\"kh\" -> /kʰ/\n\"gh\" -> /ɣ/\n\n\"aj\" !vowel -> /aj/\n\"ij\" !vowel -> /iː/\nretroflex \"í\" -> $ /ɨː/\nretroflex \"i\" -> $ /ɨ/\n\n\"ll\" -> /ll/\n\n\"au\" -> /aw/\n\"ai\" -> /aj/\n\"á\" -> /aː/\n\"í\" -> /iː/\n\"ú\" -> /uː/\n\"e\" -> /ɛː/\n\"o\" -> /ɔː/\n\n\"a\" -> /a/ \n\"i\" -> /i/\n\"u\" -> /u/\n\n\n\n\"ṭ\" -> /ʈ/\n\"ḍ\" -> /ɖ/\n\"ṣ\" -> /ʂ/\n\"ḷ\" -> /ɭ/\n\"ṇ\" -> /ɳ/\n\n\n\"-\" -> /-/\n\n\"w\" -> /ʋ/\n\"p\" -> /p/\n\"b\" -> /b/\n\"m\" -> /m/\n\n\"t\" -> /t/\n\"d\" -> /d/\n\"n\" -> /n/\n\"c\" -> /s/\n\"s\" -> /z/\n\"l\" -> /ɾ/\n\"r\" -> /r/\n\n\"x\" -> /ʃ/\n\"z\" -> /tʃ/\n\"j\" -> /j/\n\"y\" -> /ɥ/\n\n\"k\" -> /k/\n\"g\" -> /ɡ/\n\"h\" -> /x/\n"
+  "snoj" : "\nPUNCTUATION = \".\" | \",\" | \"_\";\n\nretroflex = \"ṇ\" | \"ṭ\" | \"ḍ\" | \"ṣ\" | \"ḷ\"\nvowel = \"au\" | \"ai\" | \"á\"  | \"í\"  | \"ú\"  | \"e\"  | \"o\"  | \"a\"  | \"i\"  | \"u\" \n\n\"ph\" -> /pʰ/\n\"bh\" -> /bʱ/\n\"dh\" -> /dʱ/\n\"ṣl\" -> /ʂɻ/\n\"l\" ^ -> /ɾə/\n\"kh\" -> /kʰ/\n\"gh\" -> /ɣ/\n\n\"aj\" !vowel -> /aj/\n\"ij\" !vowel -> /iː/\nretroflex \"í\" -> $ /ɨː/\nretroflex \"i\" -> $ /ɨ/\n\n\"ll\" -> /ll/\n\n^ \"l\" -> /l/\n\n\"au\" -> /aw/\n\"ai\" -> /aj/\n\"á\" -> /aː/\n\"í\" -> /iː/\n\"ú\" -> /uː/\n\"e\" -> /ɛː/\n\"o\" -> /ɔː/\n\n\"a\" -> /a/ \n\"i\" -> /i/\n\"u\" -> /u/\n\n\n\n\"ṭ\" -> /ʈ/\n\"ḍ\" -> /ɖ/\n\"ṣ\" -> /ʂ/\n\"ḷ\" -> /ɭ/\n\"ṇ\" -> /ɳ/\n\n\n\"-\" -> /-/\n\n\"w\" -> /ʋ/\n\"p\" -> /p/\n\"b\" -> /b/\n\"m\" -> /m/\n\n\"t\" -> /t/\n\"d\" -> /d/\n\"n\" -> /n/\n\"c\" -> /s/\n\"s\" -> /z/\n\"l\" -> /ɾ/\n\"r\" -> /r/\n\n\"x\" -> /ʃ/\n\"z\" -> /tʃ/\n\"j\" -> /j/\n\"y\" -> /ɥ/\n\n\"k\" -> /k/\n\"g\" -> /ɡ/\n\"h\" -> /x/\n"
 }
