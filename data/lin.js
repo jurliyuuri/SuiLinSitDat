@@ -4911,7 +4911,13 @@ var lin=
     "tags" : [ ],
     "contents" : [ ],
     "variations" : [ ],
-    "relations" : [ ]
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 420,
+        "form" : "氏"
+      }
+    } ]
   }, {
     "entry" : {
       "id" : 217,
@@ -11445,6 +11451,60 @@ var lin=
     },
     "translations" : [ ],
     "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 419,
+      "form" : "加(3)"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "náhúl" ]
+    }, {
+      "title" : "アイル語",
+      "forms" : [ "naho" ]
+    }, {
+      "title" : "アイル語(辞書表記)",
+      "forms" : [ "naho" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 420,
+      "form" : "氏"
+    },
+    "translations" : [ ],
+    "tags" : [ "異体字" ],
+    "contents" : [ {
+      "title" : "備考",
+      "text" : "「族」の異体字"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "異体字",
+      "entry" : {
+        "id" : 216,
+        "form" : "族"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 421,
+      "form" : "閥"
+    },
+    "translations" : [ {
+      "title" : "バート語",
+      "forms" : [ "bhátnímaṣ" ]
+    }, {
+      "title" : "標準パイグ語",
+      "forms" : [ "ban2 nim2" ]
+    } ],
+    "tags" : [ "人名用字・地名用字" ],
     "contents" : [ ],
     "variations" : [ ],
     "relations" : [ ]

@@ -143,7 +143,7 @@ char	decomp1	decomp2	decomp3	decomp4
 乎	⿻亦無
 於	⿰大無
 悪	⿱心下
-真	⿳言石
+真	⿱言石
 噫	⿰心声
 雪	⿵天花
 夏	⿱火日
@@ -309,3 +309,5 @@ char	decomp1	decomp2	decomp3	decomp4
 止	⿱五足
 秋	⿰米刀
 冬	⿱閉日
+氏	⿱人圧
+閥	⿰闇氏

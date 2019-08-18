@@ -4529,6 +4529,12 @@ var phertars=
         "id" : 271,
         "form" : "bákaz"
       }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 355,
+        "form" : "náhaz"
+      }
     } ]
   }, {
     "entry" : {
@@ -8240,6 +8246,113 @@ var phertars=
     } ],
     "tags" : [ ],
     "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 354,
+      "form" : "náhúḷ"
+    },
+    "translations" : [ {
+      "title" : "瞬間動詞",
+      "forms" : [ "〜(対格)を〜(ghi)に付け加える", "〜(対格)を〜(ghi)に足す", "〜(対格)を〜(ghi)に加える" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "藍naho"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 355,
+        "form" : "náhaz"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 355,
+      "form" : "náhaz"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "足し算", "追加すること", "付け加えること", "付加" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 354,
+        "form" : "náhúḷ"
+      }
+    }, {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 190,
+        "form" : "-az"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 356,
+      "form" : "nához"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "名詞を格変化させること" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "同根語",
+      "text" : "藍naho, 伐náhúḷ"
+    } ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 357,
+        "form" : "náhozúḷ"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 357,
+      "form" : "náhozúḷ"
+    },
+    "translations" : [ {
+      "title" : "瞬間動詞",
+      "forms" : [ "〜(対格)を〜(具格)の形に格変化させる" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ {
+      "title" : "派生関係",
+      "entry" : {
+        "id" : 356,
+        "form" : "nához"
+      }
+    } ]
+  }, {
+    "entry" : {
+      "id" : 358,
+      "form" : "elameniác"
+    },
+    "translations" : [ {
+      "title" : "子音幹名詞",
+      "forms" : [ "労働者", "働く人", "社員", "実業家", "経営者", "給与所得者" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "リパライン語elmen'iarsよりも語義は広く、経営者とかも含むので、「労働者階級」みたいなのを指すのには適さない。"
+    }, {
+      "title" : "同根語",
+      "text" : "理elmen'iars"
+    } ],
     "variations" : [ ],
     "relations" : [ ]
   } ],

@@ -144,7 +144,7 @@ var composition=
 {"char":"乎","decomp1":"⿻亦無","decomp2":"","decomp3":"","decomp4":""},
 {"char":"於","decomp1":"⿰大無","decomp2":"","decomp3":"","decomp4":""},
 {"char":"悪","decomp1":"⿱心下","decomp2":"","decomp3":"","decomp4":""},
-{"char":"真","decomp1":"⿳言石","decomp2":"","decomp3":"","decomp4":""},
+{"char":"真","decomp1":"⿱言石","decomp2":"","decomp3":"","decomp4":""},
 {"char":"噫","decomp1":"⿰心声","decomp2":"","decomp3":"","decomp4":""},
 {"char":"雪","decomp1":"⿵天花","decomp2":"","decomp3":"","decomp4":""},
 {"char":"夏","decomp1":"⿱火日","decomp2":"","decomp3":"","decomp4":""},
@@ -310,4 +310,6 @@ var composition=
 {"char":"止","decomp1":"⿱五足","decomp2":"","decomp3":"","decomp4":""},
 {"char":"秋","decomp1":"⿰米刀","decomp2":"","decomp3":"","decomp4":""},
 {"char":"冬","decomp1":"⿱閉日","decomp2":"","decomp3":"","decomp4":""},
+{"char":"氏","decomp1":"⿱人圧","decomp2":"","decomp3":"","decomp4":""},
+{"char":"閥","decomp1":"⿰闇氏","decomp2":"","decomp3":"","decomp4":""},
 null]

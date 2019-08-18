@@ -5162,6 +5162,19 @@ var airen=
     "relations" : [ ]
   }, {
     "entry" : {
+      "id" : 30688,
+      "form" : "naho"
+    },
+    "translations" : [ {
+      "title" : "",
+      "forms" : [ "{Ｂ}［他］【数】加える,足し算する,小さい,弱小の,ささいな,卑小な" ]
+    } ],
+    "tags" : [ "真理設定" ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
       "id" : 30906,
       "form" : "naita"
     },
