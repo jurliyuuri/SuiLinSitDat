@@ -311,3 +311,5 @@ char	decomp1	decomp2	decomp3	decomp4
 冬	⿱閉日
 氏	⿱人圧
 閥	⿰闇氏
+纂	⿰筆軸
+穐	⿰⿱五米刀

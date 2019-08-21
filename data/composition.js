@@ -312,4 +312,6 @@ var composition=
 {"char":"冬","decomp1":"⿱閉日","decomp2":"","decomp3":"","decomp4":""},
 {"char":"氏","decomp1":"⿱人圧","decomp2":"","decomp3":"","decomp4":""},
 {"char":"閥","decomp1":"⿰闇氏","decomp2":"","decomp3":"","decomp4":""},
+{"char":"纂","decomp1":"⿰筆軸","decomp2":"","decomp3":"","decomp4":""},
+{"char":"穐","decomp1":"⿰⿱五米刀","decomp2":"","decomp3":"","decomp4":""},
 null]

@@ -9236,6 +9236,53 @@ var perger=
     } ],
     "variations" : [ ],
     "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 456,
+      "form" : "hen"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "啌" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "軽い納得" ]
+    }, {
+      "title" : "叫詞",
+      "forms" : [ "ああ", "へぇ", "へえ", "はぁ", "ほう", "ほぅ" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "軽い納得を表す。"
+    }, {
+      "title" : "表記揺れ",
+      "text" : "he"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 457,
+      "form" : "ua"
+    },
+    "translations" : [ {
+      "title" : "漢字転写",
+      "forms" : [ "哇" ]
+    }, {
+      "title" : "概念",
+      "forms" : [ "軽い驚き" ]
+    }, {
+      "title" : "叫詞",
+      "forms" : [ "わあ", "わぁ", "おー", "おお", "おぉ" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "用法",
+      "text" : "軽い驚きを表す。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
   } ],
   "zpdic" : {
     "alphabetOrder" : "pbmcsxztdnlkghaeoiuy",
